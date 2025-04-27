@@ -14,7 +14,7 @@
 > Set Up the S3 Bucket                       
 > Configure Route 53 for Domain Registration                                  
 > Set Up CloudFront                                          
-> Create new certification using ACM                                               
+> Create new SSL certificate using ACM                                               
 > Configure Alternate Domain Names                                            
 > Automate Deployment with CodePipeline
 
@@ -52,7 +52,7 @@
  
            o	Verify that the CloudFront domain name correctly serves the website content stored in S3.
  
-*Create new certification using ACM 
+*Create new SSL certificate using ACM*
 
            o	Request a public SSL certificate for your domain through ACM.
  
