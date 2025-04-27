@@ -72,7 +72,7 @@
  
             o	Validate the website to ensure content synchronization with the GitHub repository.
  
-            o	If content changes, clear the CloudFront distribution cache for updates to reflect.
+            o	If webpage not changed as expected, clear the CloudFront distribution cache for ulatest pdates to reflect on domain page
  
 
 
