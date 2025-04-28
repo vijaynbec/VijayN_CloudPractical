@@ -21,7 +21,7 @@
 
 
 
-*Set Up the S3 Bucket*
+*1. Set Up the S3 Bucket*
 
 
 
@@ -32,12 +32,12 @@
  
             o	Upload the sample content html page of your choice.
                                     
-*Configure Route 53 for Domain Registration*
+*2. Configure Route 53 for Domain Registration*
 
             o	Register your domain through Route 53 and verify the registry status.
 
  
-*Set Up CloudFront*
+*3. Set Up CloudFront*
 
            o	Create a CloudFront distribution and reference the S3 bucket as the origin.
  
@@ -53,20 +53,20 @@
  
            o	Verify that the CloudFront domain name correctly serves the website content stored in S3.
  
-*Create new SSL certificate using ACM*
+*4. Create new SSL certificate using ACM*
 
            o	Request a public SSL certificate for your domain through ACM.
  
            o	Validate the certificate by creating DNS records (CNAME) in Route 53.
 
 
-*Configure Alternate Domain Names*
+*5. Configure Alternate Domain Names*
 
             o	Add alternate domain names (CNAMEs) for accessing the CloudFront distribution.
   
             o	Update Route 53 DNS records to accommodate these alternate names.
 
-*Automate Deployment with CodePipeline*
+*6. Automate Deployment with CodePipeline*
             o	Set up a custom pipeline, integrating GitHub as the source repository.
  
             o	Skip the build and staging steps; directly deploy the content to the target S3 bucket.
