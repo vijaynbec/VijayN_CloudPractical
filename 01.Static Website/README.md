@@ -1,6 +1,6 @@
 
 
-# Hosting a Secured Static Website with automatic implementation using AWS Services:
+# Hosting a Static Website with automatic implementation using AWS Services:
 
 **AWS Services for this implementation:**                    
 > S3                                                                                                                                                                
