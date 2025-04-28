@@ -26,9 +26,7 @@
 
 
             o	Create an S3 bucket, ensuring that public access is blocked and settings remain default.
-                       ![Image](https://github.com/user-attachments/assets/0c7c7c9a-5f79-4161-86ac-028dd7db5254)
-
-            
+                                  
  
             o	Enable the static website hosting feature in the bucket.
  
