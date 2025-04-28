@@ -27,8 +27,7 @@
 
             o	Create an S3 bucket, ensuring that public access is blocked and settings remain default.
                                   
- 
-            o	Enable the static website hosting feature in the bucket.
+             o	Enable the static website hosting feature in the bucket.
  
             o	Upload the sample content html page of your choice.
                                     
