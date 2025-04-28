@@ -26,7 +26,7 @@
 
 
             o	Create an S3 bucket, ensuring that public access is blocked and settings remain default.
-                        ![image](https://github.com/user-attachments/assets/9b985096-ab3f-43a1-b872-c3a55628f85d)
+                       ![Image](https://github.com/user-attachments/assets/0c7c7c9a-5f79-4161-86ac-028dd7db5254)
 
             
  
