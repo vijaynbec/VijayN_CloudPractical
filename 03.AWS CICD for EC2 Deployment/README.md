@@ -15,7 +15,7 @@ This project demonstrates how to implement a **CI/CD pipeline** for deploying a 
 
 ## 📊 Architecture Diagram
 
-![Architecture Diagram](docs/AWS_CI_CD pipelineEC2.png)
+![Architecture Diagram](docs/AWS_CI_CDpipelineEC2.png)
 
 ---
 
