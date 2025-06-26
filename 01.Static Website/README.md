@@ -1,78 +1,77 @@
+# 🌐 Static Website Hosting on AWS with Automated Deployment
+
+This repository provides an detail steps **host a static website** using AWS services along with 
+CICD integration.
+
+---
 
 
-# Hosting a Static Website with automatic implementation using AWS Services:
+## 🧰 AWS Services Used
 
-**AWS Services for this implementation:**                    
-> S3                                                                                                                                                                
-> CloudFront                                           
-> Route 53                                                     
-> Certification Manager                                                      
-> CodePipeline                             
+- **Amazon S3** – Static content storage and website hosting
+- **CloudFront** – CDN for efficient, secure content delivery
+- **Route 53** – Domain registration and DNS configuration
+- **AWS Certificate Manager (ACM)** – SSL/TLS certificate provisioning
+- **AWS CodePipeline** – Continuous deployment pipeline
 
+---
 
-**Steps to be followed:**
-> Set Up the S3 Bucket                       
-> Configure Route 53 for Domain Registration                                  
-> Set Up CloudFront                                          
-> Create new SSL certificate using ACM                                               
-> Configure Alternate Domain Names                                            
-> Automate Deployment with CodePipeline
+## 🚀 Implementation Steps
 
+### 1️⃣ Set Up the S3 Bucket
 
+- Create a new S3 bucket.
+- Keep default settings and block all public access.
+- Enable **Static Website Hosting** in the bucket properties.
+- Upload sample HTML content or your static site files.
 
+---
 
-*1. Set Up the S3 Bucket*
+### 2️⃣ Configure Route 53 for Domain Registration
 
+- Register your custom domain using **Amazon Route 53**.
+- Validate and ensure your domain is in an `ACTIVE` state.
 
+---
 
-            o	Create an S3 bucket, ensuring that public access is blocked and settings remain default.
-                                  
-             o	Enable the static website hosting feature in the bucket.
- 
-            o	Upload the sample content html page of your choice.
-                                    
-*2. Configure Route 53 for Domain Registration*
+### 3️⃣ Set Up CloudFront
 
-            o	Register your domain through Route 53 and verify the registry status.
+- Create a **CloudFront distribution** and set your S3 bucket as the origin.
+- Enable **Origin Access Identity (OAI)** to securely connect CloudFront with S3.
+- Modify caching behavior, HTTP methods, and set the desired Price Class.
+- Use **ACM** to generate an SSL certificate (refer to Step 4).
+- Specify the default root object (e.g., `index.html`).
+- Verify that the CloudFront URL correctly serves your site content.
 
- 
-*3. Set Up CloudFront*
+---
 
-           o	Create a CloudFront distribution and reference the S3 bucket as the origin.
- 
-           o	Enable Origin Access Identity (OAI) and apply a bucket policy to allow CloudFront access.
+### 4️⃣ Create an SSL Certificate with AWS Certificate Manager
 
-           o	Adjust caching settings, HTTP methods, and select the appropriate Price Class.
- 
- 
-           o	Use AWS Certificate Manager (ACM) to generate an SSL certificate and apply
-                        (Certificate creation refer step#4)
- 
-           o	Specify the default object for the distribution.
- 
-           o	Verify that the CloudFront domain name correctly serves the website content stored in S3.
- 
-*4. Create new SSL certificate using ACM*
+- Request a public certificate in **ACM** for your domain and subdomains.
+- Use **Route 53 DNS validation** by creating CNAME records as prompted.
 
-           o	Request a public SSL certificate for your domain through ACM.
- 
-           o	Validate the certificate by creating DNS records (CNAME) in Route 53.
+---
 
+### 5️⃣ Configure Alternate Domain Names
 
-*5. Configure Alternate Domain Names*
+- Add **alternate domain names (CNAMEs)** in the CloudFront distribution settings.
+- Update your **Route 53 DNS records** to route traffic to CloudFront.
 
-            o	Add alternate domain names (CNAMEs) for accessing the CloudFront distribution.
-  
-            o	Update Route 53 DNS records to accommodate these alternate names.
+---
 
-*6. Automate Deployment with CodePipeline*
-            o	Set up a custom pipeline, integrating GitHub as the source repository.
- 
-            o	Skip the build and staging steps; directly deploy the content to the target S3 bucket.
- 
-            o	Validate the website to ensure content synchronization with the GitHub repository.
- 
-            o	If webpage not changed as expected, clear the CloudFront distribution cache for ulatest pdates to reflect on domain page
- 
+### 6️⃣ Automate Deployment with AWS CodePipeline
 
+- Create a **custom CodePipeline** that uses GitHub as the source.
+- Skip build/staging steps; direct deploy content to the S3 bucket.
+- Test that changes in the repository reflect on the live website.
+- If updates don’t appear, **invalidate the CloudFront cache** to clear old content.
 
+---
+
+## ✅ Final Output
+
+A fully functional, secure, and scalable static website delivered via AWS services, automatically updated through GitHub integration.
+
+---
+
+Happy hosting! 🎉

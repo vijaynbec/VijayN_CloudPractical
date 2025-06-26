@@ -1,0 +1,55 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - echo "Installing dependencies..."
+      - pip install -r requirements.txt -t lib
+  build:
+    commands:
+      - echo "Zipping deployment package..."
+      - cd lib
+      - zip -r9 ../deployment_package.zip .
+      - cd ..
+      - zip -g deployment_package.zip lambda_function.py
+  post_build:
+    commands:
+      - echo "Updating lambda Function..."
+      - aws lambda update-function-code --function-name CICD_Lambda_Function --zip-file fileb://deployment_package.zip
+      # - aws lambda publish-version --function-name CICD_Lambda_Function 
+      - echo "DONE!!"
+artifacts:
+  files:
+    - '**/*'
+    - 'appspec.yml'
+
+# version: 0.2
+# phases:
+#   install:
+#     commands:
+#       - echo Installing dependencies...
+#       - pip install -r requirements.txt -t lambda/
+#   pre_build:
+#     commands:
+#       - echo Preparing Lambda function...
+#       - mkdir -p /codebuild/output/lambda/
+#       - cp -r lambda/* /codebuild/output/lambda/
+#   build:
+#     commands:
+#       - echo Building Lambda function package...
+#       - cd /codebuild/output/lambda/
+#       - zip -r lambda.zip .
+#   post_build:
+#     commands:
+#       - echo Deploying Lambda function...
+#       - aws lambda update-function-code --function-name CICD_Lambda_Function --zip-file fileb://lambda.zip
+#       - echo Publishing new version...
+#       - VERSION=$(aws lambda publish-version --function-name CICD_Lambda_Function --query Version --output text)
+#       # - echo "New Lambda function version: $VERSION"
+#       # - echo Promoting Lambda function version to alias...
+#       - aws lambda update-alias --function-name CICD_Lambda_Function --name stage --function-version $VERSION
+
+# artifacts:
+#   files:
+#     - lambda.zip

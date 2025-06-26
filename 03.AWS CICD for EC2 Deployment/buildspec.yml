@@ -1,0 +1,40 @@
+version: 0.2  # Correct version number
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - echo "Installing dependencies..."
+      - pip install -r requirements.txt -t lib
+      - pip3 install pytest pytest-cov
+
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 12345687.dkr.ecr.us-east-1.amazonaws.com
+      - echo Logged in to Amazon ECR successfully
+  build:
+    commands:
+      - echo Building Docker Image for Flask Application
+      - docker build -t flask_image .
+      - echo Image built successfully
+      # - python -m pytest --junitxml=pytest_reports/pytest_report.xml  
+  post_build:
+    commands:
+      - echo Tagging Flask Docker image
+      - docker tag flask_image:latest 12345687.dkr.ecr.us-east-1.amazonaws.com/flask_image:latest
+      - docker push 12345687.dkr.ecr.us-east-1.amazonaws.com/flask_image:latest
+      - echo Flask image pushed to ECR
+      - echo "we are in the build block"
+      - echo "we will run some tests"
+      - grep -Fq "EC2" templates/homepage.html
+reports:
+  pytest_reports:
+    files:
+      - pytest_report.xml
+    base-directory: pytest_reports/
+    file-format: JUNITXML
+artifacts:
+  files:
+    - 'scripts/**/*'
+    - 'appspec.yml'

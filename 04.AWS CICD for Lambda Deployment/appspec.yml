@@ -1,0 +1,13 @@
+# https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-example.html#appspec-file-example-lambda
+version: 0.0
+Resources:
+  - myLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "CICD_Lambda_Function"
+        Alias: "stage"
+        CurrentVersion: "6"
+        TargetVersion: "7"
+# Hooks:
+#   - BeforeAllowTraffic: "LambdaFunctionToValidateBeforeTrafficShift"
+#   - AfterAllowTraffic: "LambdaFunctionToValidateAfterTrafficShift"
