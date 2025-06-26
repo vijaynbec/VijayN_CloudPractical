@@ -14,7 +14,7 @@ This project demonstrates how to implement a **CI/CD pipeline** for deploying a 
 - **Amazon S3** – Store deployment artifacts
 
 ## 📊 Architecture Diagram
-
+<img src="docs/AWS_CI_CD_pipeline_EC2.png" alt="Architecture Diagram" width="600" height="400"/>
 ![Architecture Diagram](docs/AWS_CI_CDpipelineEC2.png)
 
 ---
