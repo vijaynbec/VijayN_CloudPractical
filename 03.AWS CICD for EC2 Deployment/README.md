@@ -86,7 +86,7 @@ Attach a role with the following policies:
    proxy_pass http://127.0.0.1:5000;
 
 5. **Restart Nginx** 
-
+    ```bash
 
     sudo systemctl restart nginx
 
