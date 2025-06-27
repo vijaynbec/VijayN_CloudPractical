@@ -1,4 +1,4 @@
-# 🚀 Flask_app_CICD – CI/CD Pipeline with AWS on EC2
+# 🚀 Flask_app_CICD – CI/CD Pipeline with AWS and EC2
 
 This project demonstrates how to implement a **CI/CD pipeline** for deploying a Flask application to an EC2 instance using AWS services like ECR, CodeBuild, CodeDeploy, and CodePipeline.
 
