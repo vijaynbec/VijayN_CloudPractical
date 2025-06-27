@@ -1,31 +1,50 @@
-# CICD_Lambda
-IAM Roles: Codedeploy, Codebuild
+# 🚀 CI/CD Pipeline with AWS for Lambda
 
-CodeDeploy: (Lambda, Codedeploy)
-             AmazonS3FullAccess
-             AWSCodeDeployRoleForLambda
-                add lambda access
+## 🔐 IAM Roles
 
-Codebuild: 
-              Default service role lambda actions as below)
-             
- "Action": 
-["lambda:AddPermission",                
-"lambda:RemovePermission",               
-"lambda:CreateAlias",                
-"lambda:UpdateAlias",               
-"lambda:DeleteAlias",               
- "lambda:GetFunction",               
- "lambda:UpdateFunctionCode",               
- "lambda:UpdateFunctionConfiguration",                
- "lambda:PutFunctionConcurrency",              
- "lambda:DeleteFunctionConcurrency",             
- "lambda:PublishVersion“]
+### CodeDeploy
+- **Required Policies**:
+  - `AmazonS3FullAccess`
+  - `AWSCodeDeployRoleForLambda`
+  - Add necessary Lambda permissions
 
-Create the Lambda Function/Application code.
-Define the alias via Console or scripts
-Configure/define Code Build project and  buildspec.yml
-Configure/define Code Build project and  buildspec.yml and attach the role
-Configure/define Codedeploy, deploymentgroup, deployment using appspec.yml file and attach the role.
+### CodeBuild
+- **Default Service Role Permissions**:
+  ```json
+  "Action": [
+    "lambda:AddPermission",
+    "lambda:RemovePermission",
+    "lambda:CreateAlias",
+    "lambda:UpdateAlias",
+    "lambda:DeleteAlias",
+    "lambda:GetFunction",
+    "lambda:UpdateFunctionCode",
+    "lambda:UpdateFunctionConfiguration",
+    "lambda:PutFunctionConcurrency",
+    "lambda:DeleteFunctionConcurrency",
+    "lambda:PublishVersion"
+  ]
+  
+### 🛠️ Setup Steps
+- **Create Lambda Function/Application Code**
+
+- **Define an Alias**
+
+- **Set up via AWS Console or automation scripts**
+
+- **Configure CodeBuild Project**
+
+- **Include your buildspec.yml**
+
+- **Attach the appropriate IAM role**
+
+- **Configure CodeDeploy**
+
+- **Set up deployment group and deployment**
+
+- **Use appspec.yml**
+
+- **Attach the IAM role**
+
 
 
