@@ -1,4 +1,4 @@
-# 🚀 CI/CD Pipeline with AWS for Lambda
+# 🚀 CI/CD Pipeline with AWS Lambda
 
 ## 🔐 IAM Roles
 
