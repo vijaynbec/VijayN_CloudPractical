@@ -24,7 +24,9 @@ Before deploying, ensure the following components are in place:
 
 ## 📁 Folder Structure
 
-/ ├── Modules/         # Reusable Terraform modules                                                                                                         └── Main Files       # Entry-point .tf files at the root leve
+/ ├── Modules/         # Reusable Terraform modules  
+
+  └── Main Files       # Entry-point .tf files at the root leve
 
 ---
 
