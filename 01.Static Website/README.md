@@ -25,8 +25,7 @@ The architecture follows a globally distributed, secure, and scalable design usi
 
 - Create a new S3 bucket.
 - Keep default settings and block all public access.
-- Enable **Static Website Hosting** in the bucket properties.
-- Upload sample HTML content or your static site files.
+- Upload Hosts your static files (HTML, CSS, JS) with website hosting enabled.
 
 ---
 
