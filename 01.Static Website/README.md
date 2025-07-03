@@ -11,9 +11,10 @@ The architecture follows a globally distributed, secure, and scalable design usi
 - **AWS Certificate Manager (ACM)** – Provides HTTPS certificates (must be provisioned in `us-east-1` for CloudFront)
 - **AWS CodePipeline** – Automates deployment from GitHub to S3, triggering cache invalidation on CloudFront
 
-> 📎 Refer back to [🌐 Static Website Hosting on AWS with Automated Deployment](#-static-website-hosting-on-aws-with-automated-deployment) for detailed implementation steps.
 
 ### 🖼️ Architecture Diagram
+
+![AWS Static Website Architecture](./static-hosting-architecture.png)
 
 
 ---
