@@ -1,18 +1,20 @@
-# 🌐 Static Website Hosting on AWS with Automated Deployment
-
-This repository provides an detail steps **host a static website** using AWS services along with 
-CICD integration.
+# 🌐 Static Website Hosting on AWS with CICD Integration
 
 ---
+The architecture follows a globally distributed, secure, and scalable design using key AWS services to deliver and manage static content efficiently.
 
+### 🔧 Components Used
 
-## 🧰 AWS Services Used
+- **Amazon S3** – Hosts your static files (HTML, CSS, JS) with website hosting enabled
+- **CloudFront (Global Service)** – Delivers content via edge locations around the world
+- **Route 53** – Maps your custom domain to the CloudFront distribution
+- **AWS Certificate Manager (ACM)** – Provides HTTPS certificates (must be provisioned in `us-east-1` for CloudFront)
+- **AWS CodePipeline** – Automates deployment from GitHub to S3, triggering cache invalidation on CloudFront
 
-- **Amazon S3** – Static content storage and website hosting
-- **CloudFront** – CDN for efficient, secure content delivery
-- **Route 53** – Domain registration and DNS configuration
-- **AWS Certificate Manager (ACM)** – SSL/TLS certificate provisioning
-- **AWS CodePipeline** – Continuous deployment pipeline
+> 📎 Refer back to [🌐 Static Website Hosting on AWS with Automated Deployment](#-static-website-hosting-on-aws-with-automated-deployment) for detailed implementation steps.
+
+### 🖼️ Architecture Diagram
+
 
 ---
 
