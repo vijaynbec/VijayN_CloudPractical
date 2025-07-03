@@ -14,7 +14,7 @@ The architecture follows a globally distributed, secure, and scalable design usi
 
 ### 🖼️ Architecture Diagram
 
-![Architecture Diagram](Images/AWS_CI_CDpipelineEC2.png)
+![Architecture Diagram](Images/Static.drawio.png)
 
 
 ---
