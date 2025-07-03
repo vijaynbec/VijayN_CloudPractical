@@ -14,7 +14,7 @@ The architecture follows a globally distributed, secure, and scalable design usi
 
 ### 🖼️ Architecture Diagram
 
-![AWS Static Website Architecture](./static-hosting-architecture.png)
+![Architecture Diagram](Images/AWS_CI_CDpipelineEC2.png)
 
 
 ---
