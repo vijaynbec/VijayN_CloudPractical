@@ -1,1 +1,1 @@
-## 🚀 Cloud Projects - AWS, Terraform, Kubernetes
+## 🚀 Cloud Projects - AWS - Terraform - Kubernetes
