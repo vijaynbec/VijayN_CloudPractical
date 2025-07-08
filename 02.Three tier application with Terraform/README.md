@@ -29,6 +29,9 @@ Before deploying, ensure the following components are in place:
   └── Main Files       # Entry-point .tf files at the root leve
 
 ---
+### 🖼️ Architecture Diagram
+
+![Architecture Diagram](root/Three Layer.drawio.png)
 
 ## 🛠️ AWS Services Breakdown
 
