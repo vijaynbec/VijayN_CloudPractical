@@ -31,7 +31,7 @@ Before deploying, ensure the following components are in place:
 ---
 ### 🖼️ Architecture Diagram
 
-![Architecture Diagram](root/ThreeLayer.png)
+![Architecture Diagram](root/Twolayer.png)
 
 ## 🛠️ AWS Services Breakdown
 
