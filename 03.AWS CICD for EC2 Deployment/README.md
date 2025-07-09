@@ -96,6 +96,8 @@ Attach a role with the following policies:
 A fully automated CI/CD pipeline that builds, packages, and deploys your Flask app to a running EC2 instance via Docker, 
 complete with traffic routing through Nginx
 
+![Final Output](docs/PipelineEC2.png)
+
 ---
 Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
  
