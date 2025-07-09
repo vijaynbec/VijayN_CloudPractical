@@ -46,6 +46,11 @@
 
 - **Attach the IAM role**
 
----
+- **Final Output**
+
+A fully automated CI/CD pipeline that builds, packages, and deploys your Lambda Function
+![Final Output](/LambdaCICD.png)
+
+
 Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
 
