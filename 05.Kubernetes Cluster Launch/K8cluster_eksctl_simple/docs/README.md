@@ -9,14 +9,14 @@
 
 
 💻 2. Create Cluster (Command Line Equivalent)
-eksctl create cluster \
-  --name my-cluster \
-  --region us-east-1 \
-  --version 1.32 \
-  --nodegroup-name ng-managed \
-  --node-type t2.micro \
-  --nodes 2 \
-  --managed
+      eksctl create cluster \
+        --name my-cluster \
+        --region us-east-1 \
+        --version 1.32 \
+        --nodegroup-name ng-managed \
+        --node-type t2.micro \
+        --nodes 2 \
+        --managed
 
 
   
