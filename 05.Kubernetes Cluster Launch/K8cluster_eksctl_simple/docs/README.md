@@ -1,12 +1,9 @@
 
 🚀 Launching EKS with eksctl: Declarative & CLI Methods
 📦 1. Install Prerequisites
-- Install  on Windows
-
-curl.exe -LO https://dl.k8s.io/release/v1.33.0/bin/windows/amd64/kubectl.exe
-
-
-- Install  and add it to your system PATH.
+- Install kubectl - https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/  
+      curl.exe -LO https://dl.k8s.io/release/v1.33.0/bin/windows/amd64/kubectl.exe
+- Install  and add it to your system PATH.
 
 
 💻 2. Create Cluster (Command Line Equivalent)
