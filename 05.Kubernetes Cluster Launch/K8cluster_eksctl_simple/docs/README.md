@@ -1,5 +1,7 @@
 
 🚀 Launching EKS with eksctl: Declarative & CLI Methods
+
+
 📦 1. Install Prerequisites
 - Install kubectl - https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
   
