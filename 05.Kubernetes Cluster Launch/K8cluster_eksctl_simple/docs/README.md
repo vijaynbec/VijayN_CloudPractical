@@ -1,5 +1,5 @@
 
-#  🚀** Launching EKS with eksctl: Declarative & CLI Methods**
+#  🚀 Launching EKS with eksctl: CLI method - Simplest
 
 
 📦 1. Install Prerequisites
