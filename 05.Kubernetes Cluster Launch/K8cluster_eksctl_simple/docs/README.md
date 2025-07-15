@@ -24,7 +24,11 @@
 
 
   
-✅ 3. Validate & Delete
+✅ 3. Validate
 
-![Validate & Delete](eks_ui1.png)
+![Validate](eks_ui1.png)
+
+![Validate](eks_ui2.png)
+
+✅ 4. Delete Cluster
 
