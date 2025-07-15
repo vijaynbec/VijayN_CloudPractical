@@ -26,3 +26,5 @@
   
 ✅ 3. Validate & Delete
 
+![Validate & Delete](eksui1.png)
+
