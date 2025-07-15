@@ -26,5 +26,5 @@
   
 ✅ 3. Validate & Delete
 
-![Validate & Delete](eksui1.png)
+![Validate & Delete](eks_ui1.png)
 
