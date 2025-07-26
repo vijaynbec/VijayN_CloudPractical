@@ -52,42 +52,8 @@ Assign this role to the EC2 instance from the IAM dashboard or via CLI.
             kubectl get nodes
             
 # 🚀 Deploy Sample Nginx App
-                  Deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: nginx-deployment
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: nginx
-  template:
-    metadata:
-      labels:
-        app: nginx
-    spec:
-      containers:
-      - name: nginx
-        image: nginx:latest
-        ports:
-        - containerPort: 80
-
-                   Service.yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: nginx-service
-spec:
-  selector:
-    app: nginx
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
-  type: LoadBalancer
-
-
+Deployment.yaml
+Service.yaml
 
 
 
