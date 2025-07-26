@@ -33,6 +33,23 @@ This guide outlines how to provision an Amazon EKS cluster using eksctl from a l
           sudo mv /tmp/eksctl /usr/local/bin
           eksctl version
 
+4️⃣ Create IAM Role for EC2 Instance
+Attach the following AWS managed policies to the role:
+- AmazonEKSClusterPolicy
+- AmazonEKSWorkerNodePolicy
+- AmazonEC2ContainerRegistryReadOnly
+- AmazonEKS_CNI_Policy
+Assign this role to the EC2 instance from the IAM dashboard or via CLI.
+
+5️⃣ Create Your EKS Cluster
+          
+            eksctl create cluster --name my-cluster --region us-east-1 --nodes 2 --node-type t2.micro –managed
+
+
+
+
+
+
 
 
 
