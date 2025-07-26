@@ -70,6 +70,12 @@ Apply manifests:
 ![Validate - Components_application from EKS](EKS_components.png)
 
 
+Launched application from EKS
+
+![Validate - Components_application from EKS](app_launch.png)
+app_launch.png
+
+
 # 🧹 Cleanup Resources
 
   
@@ -81,6 +87,9 @@ Apply manifests:
   
       - Go to AWS EC2 Console                                           
       - Select your instance → Actions → Terminate
+
+
+      ![Cleanup Resources](clean_up.png)
 
 
 
