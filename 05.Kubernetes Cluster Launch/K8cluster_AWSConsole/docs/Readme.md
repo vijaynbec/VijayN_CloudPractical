@@ -89,7 +89,7 @@ app_launch.png
       - Select your instance → Actions → Terminate
 
 
-      ![Cleanup Resources](clean_up.png)
+      ![Delete EC2 EKS Client](clean_up.png)
 
 
 
