@@ -73,7 +73,8 @@ Apply manifests:
 
 
   2️⃣ Delete EC2 EKS Client:
-      - Go to AWS EC2 Console
+  
+      - Go to AWS EC2 Console                                           
       - Select your instance → Actions → Terminate
 
 
