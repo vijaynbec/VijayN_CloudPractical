@@ -64,6 +64,8 @@ Apply manifests:
       kubectl apply -f Service.yaml
       kubectl get svc
 
+#  ✅ Validate the EKS Cluster and Application from EKS
+
 
 # 🧹 Cleanup Resources
 
