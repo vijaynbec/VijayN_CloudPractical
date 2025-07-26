@@ -43,20 +43,21 @@ Assign this role to the EC2 instance from the IAM dashboard or via CLI.
 
 5️⃣ Create Your EKS Cluster
           
-            eksctl create cluster --name my-cluster --region us-east-1 --nodes 2 --node-type t2.micro –managed
+           eksctl create cluster --name my-cluster --region us-east-1 --nodes 2 --node-type t2.micro –managed
 
 
 🔍 Configure kubectl for Your Cluster
+
             
             aws eks update-kubeconfig --name my-ekscluster --region us-east-1
             kubectl get nodes
+
             
 # 🚀 Deploy Sample Nginx App
 
-Deployment.yaml
+   Deployment.yaml
 
-
-Service.yaml
+   Service.yaml
 
 Apply manifests:
       
