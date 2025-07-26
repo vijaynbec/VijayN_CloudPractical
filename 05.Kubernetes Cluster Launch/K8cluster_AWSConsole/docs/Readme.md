@@ -58,6 +58,17 @@ Deployment.yaml
 
 Service.yaml
 
+Apply manifests:
+      
+      kubectl apply -f Deployment.yaml
+      kubectl apply -f Service.yaml
+      kubectl get svc
+
+
+
+
+
+
 
 
 
