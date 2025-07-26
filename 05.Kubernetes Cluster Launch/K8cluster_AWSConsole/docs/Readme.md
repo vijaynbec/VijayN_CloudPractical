@@ -52,7 +52,10 @@ Assign this role to the EC2 instance from the IAM dashboard or via CLI.
             kubectl get nodes
             
 # 🚀 Deploy Sample Nginx App
+
 Deployment.yaml
+
+
 Service.yaml
 
 
