@@ -8,13 +8,14 @@ This guide outlines how to provision an Amazon EKS cluster using eksctl from a l
 - AMI: Ubuntu 20.04+
 - Use it as your EKS management client.
 - Connect via SSH:
-ssh -i <keypair.pem> ubuntu@<ec2-public-ip>
+
 
 2️⃣ Install kubectl
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
-chmod +x ./kubectl
-sudo mv ./kubectl /usr/local/bin
-kubectl version --short --client
+
+      curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
+      chmod +x ./kubectl
+      sudo mv ./kubectl /usr/local/bin
+      kubectl version --short --client
 
 
 
