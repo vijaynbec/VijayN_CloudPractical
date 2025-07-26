@@ -67,7 +67,7 @@ Apply manifests:
 
 #  ✅ Validate - Components_application from EKS
 
-![Validate - Components_application from EKS]()
+![Validate - Components_application from EKS](EKS_components.png)
 
 
 # 🧹 Cleanup Resources
