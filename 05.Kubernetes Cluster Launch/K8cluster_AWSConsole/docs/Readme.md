@@ -1,7 +1,8 @@
-🚀 Launch Amazon EKS Using EC2 Ubuntu Client
+##  🚀 Launch Amazon EKS Using EC2 Ubuntu Client
+
 This guide outlines how to provision an Amazon EKS cluster using eksctl from a lightweight Ubuntu EC2 instance. You'll install required tools, configure IAM permissions, deploy an app, and clean up when done.
 
-⚙️ Step-by-Step Instructions
+# ⚙️ Step-by-Step Instructions
 1️⃣ Launch EC2 Ubuntu Instance
 - Instance Type: t2.micro (Free Tier eligible)
 - AMI: Ubuntu 20.04+
