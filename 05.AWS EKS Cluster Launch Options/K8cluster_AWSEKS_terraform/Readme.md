@@ -54,6 +54,8 @@ Use the following to configure your kubeconfig:
 
 terraform destroy
 
+![Destroy All Resources](eksdestroy.png)
+
 
 
 
