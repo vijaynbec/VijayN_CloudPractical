@@ -27,13 +27,13 @@ eks-cluster/
 - Valid subnet IDs in at least 2 Availability Zones (see terraform.tfvars)
 
 ### 🏁 Launch EKS Cluster
-terraform init        # Initialize with backend
+- terraform init        # Initialize with backend
 
 
-terraform plan        # Preview the changes
+- terraform plan        # Preview the changes
 
 
-terraform apply       # Create the cluster and node group
+- terraform apply       # Create the cluster and node group
 
 
 
