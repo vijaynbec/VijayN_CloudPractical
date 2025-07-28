@@ -28,7 +28,11 @@ eks-cluster/
 
 ### 🏁 Launch EKS Cluster
 terraform init        # Initialize with backend
+
+
 terraform plan        # Preview the changes
+
+
 terraform apply       # Create the cluster and node group
 
 
