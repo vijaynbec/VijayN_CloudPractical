@@ -1,4 +1,4 @@
-# 🚀 Terraform EKS Cluster Bootstrap
+### 🚀 Terraform EKS Cluster Bootstrap
 
 This repository provisions an Amazon EKS cluster using Terraform with minimal required components — optimized for simplicity, readability, and modular growth. It includes:
 - EKS cluster & node group
@@ -7,7 +7,7 @@ This repository provisions an Amazon EKS cluster using Terraform with minimal re
 
 
 
-## 📁 Folder Structure
+# 📁 Folder Structure
 
 eks-cluster/                                                                    
                         ├── backend.tf            # Remote state backend configuration (S3 + DynamoDB)
@@ -20,20 +20,20 @@ eks-cluster/
                         ├── eks.tf                # Core EKS cluster + node group definitions                                  
 
 
-##  ⚙️ Prerequisites
+#  ⚙️ Prerequisites
 - Terraform >= 1.4.0
 - AWS CLI installed and configured
 - Existing S3 bucket and DynamoDB table for remote state
 - Valid subnet IDs in at least 2 Availability Zones (see terraform.tfvars)
 
-## 🏁 Launch EKS Cluster
+# 🏁 Launch EKS Cluster
 terraform init        # Initialize with backend
 terraform plan        # Preview the changes
 terraform apply       # Create the cluster and node group
 
 
 
-## 📤 Access Cluster
+# 📤 Access Cluster
 
 Use the following to configure your kubeconfig:
       aws eks update-kubeconfig --region <aws_region> --name <cluster_name>
@@ -41,7 +41,7 @@ Use the following to configure your kubeconfig:
 
 
 
-## 🔥 Destroy All Resources
+# 🔥 Destroy All Resources
 
 terraform destroy
 
