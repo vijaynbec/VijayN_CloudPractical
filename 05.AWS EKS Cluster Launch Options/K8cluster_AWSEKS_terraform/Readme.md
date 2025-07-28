@@ -40,11 +40,14 @@ eks-cluster/
 ### 📤 Access Cluster
 
 Use the following to configure your kubeconfig:
+
+
       aws eks update-kubeconfig --region <aws_region> --name <cluster_name>                
 
       
       kubectl get nodes
 
+![Access Cluster](eksvalidate.png)
 
 
 ### 🔥 Destroy All Resources
