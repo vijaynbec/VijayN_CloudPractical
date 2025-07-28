@@ -1,4 +1,4 @@
-# 🚀 Terraform EKS Cluster Bootstrap
+# 🚀 AWS - EKS Cluster by Terraform
 
 This repository provisions an Amazon EKS cluster using Terraform with minimal required components — optimized for simplicity, readability, and modular growth. It includes:
 - EKS cluster & node group
