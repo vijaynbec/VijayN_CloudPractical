@@ -10,9 +10,9 @@ This repository provisions an Amazon EKS cluster using Terraform with minimal re
 ## 📁 Folder Structure
 
 eks-cluster/                                                                       
-├── backend.tf                          # Remote state backend configuration (S3)
+├── backend.tf                                                  # Remote state backend configuration (S3)
 
-├── main.tf                             # Provider setup and module orchestration                                
+├── main.tf                                                     # Provider setup and module orchestration                                
 
 ├── versions.tf                         # Required Terraform and provider constraints                              
 
