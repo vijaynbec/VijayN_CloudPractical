@@ -1,0 +1,1 @@
+private_subnet_ids = ["subnet-018258b7ad0c9ca49", "subnet-026c5944412362f66"]
