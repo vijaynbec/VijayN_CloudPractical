@@ -10,16 +10,13 @@ This repository provisions an Amazon EKS cluster using Terraform with minimal re
 ## 📁 Folder Structure
 
 eks-cluster/                                                                       
-├── backend.tf              # Remote state backend configuration (S3 + DynamoDB)                    
-├── main.tf                 # Provider setup and module orchestration                                
-├── versions.tf             # Required Terraform and provider constraints                              
-├── variables.tf            # Input variables for region, cluster name, subnets, etc.                           
-├── outputs.tf              # Useful outputs like kubeconfig values                                        
-├── terraform.tfvars        # Environment-specific values (subnet IDs, names, etc.)                                 
-├── iam.tf                  # IAM roles for cluster and node groups                                     
-├── eks.tf                  # Core EKS cluster + node group definitions                                     
-
-
+├── backend.tf                          # Remote state backend configuration (S3 + DynamoDB)                    
+├── main.tf                             # Provider setup and module orchestration                                
+├── versions.tf                         # Required Terraform and provider constraints                              
+├── variables.tf                        # Input variables for region, cluster name, subnets, etc.                     ├── outputs.tf                          # Useful outputs like kubeconfig values                                       
+├── terraform.tfvars                    # Environment-specific values (subnet IDs, names, etc.)                       
+├── iam.tf                              # IAM roles for cluster and node groups                                     
+├── eks.tf                              # Core EKS cluster + node group definitions                                     
 
 ##  ⚙️ Prerequisites
 - Terraform >= 1.4.0
