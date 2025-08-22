@@ -18,7 +18,7 @@
 |Kubernetes Certified Application Developer (CKAD)| Udemy |[CKAD](https://www.udemy.com/certificate/UC-919f5657-7d7f-46d1-9282-fd414efb70ca/)
 |AWS Certified Architect – Associate|![AWS Architect – Associate](https://images.credly.com/size/110x110/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)|[Architect – Associate](https://www.credly.com/badges/28bfdb72-4758-4606-a3a2-7e714ec878da/public_url)
 |AWS Certified Developer – Associate|![AWS Developer – Associate](https://images.credly.com/size/110x110/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)|[Developer – Associate](https://www.credly.com/badges/bad31d88-dfb7-4af5-b35b-6b686e7366ea/public_url)
-|AWS Certified Cloud Practioner|![AWS Practioner](https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)|[Practioner](https://www.credly.com/badges/2ca794d0-67ae-4ba4-bbce-eb0ba8f64eb5/public_url)
+|AWS Certified Cloud Practitioner|![AWS Practioner](https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)|[Practitioner](https://www.credly.com/badges/2ca794d0-67ae-4ba4-bbce-eb0ba8f64eb5/public_url)
 
 
 
