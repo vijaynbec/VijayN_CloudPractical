@@ -8,7 +8,7 @@
 
 
 
-### Credly Publlic Profile -> https://www.credly.com/users/vijay-nainegali/badges#credly
+##### Credly Publlic Profile -> https://www.credly.com/users/vijay-nainegali/badges#credly
 
 | Certification | Badge | Link |
 |---------------|-------|------|
