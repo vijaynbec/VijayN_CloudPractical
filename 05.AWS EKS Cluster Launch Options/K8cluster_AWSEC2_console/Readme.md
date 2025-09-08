@@ -21,17 +21,17 @@ This guide outlines how to provision an Amazon EKS cluster using eksctl from a l
 🔹 AWS CLI
 
         
-        sudo apt update
-        sudo apt install unzip
-        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-        unzip awscliv2.zip
-        sudo ./aws/install
-        aws --version
+      $ sudo apt update
+      $ sudo apt install unzip
+      $ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      $ unzip awscliv2.zip
+      $ sudo ./aws/install
+      $ aws --version
 🔹 eksctl
          
-          curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -    s)_amd64.tar.gz" | tar xz -C /tmp
-          sudo mv /tmp/eksctl /usr/local/bin
-          eksctl version
+       $ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp  
+       $ sudo mv /tmp/eksctl /usr/local/bin
+       $ eksctl version
 
 4️⃣ Create IAM Role for EC2 Instance
 Attach the following AWS managed policies to the role:
