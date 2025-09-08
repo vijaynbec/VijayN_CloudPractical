@@ -43,7 +43,7 @@ Assign this role to the EC2 instance from the IAM dashboard or via CLI.
 
 5️⃣ Create Your EKS Cluster
           
-           $ eksctl create cluster --name my-ekscluster --region us-east-1 --node-type t2.medium --zones us-east-1a,us-east-1b
+      $ eksctl create cluster --name my-ekscluster --region us-east-1 --node-type t2.medium --zones us-east-1a,us-east-1b
 
 
 🔍 Configure kubectl for Your Cluster
