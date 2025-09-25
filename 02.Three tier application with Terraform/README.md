@@ -61,7 +61,7 @@ Before deploying, ensure the following components are in place:
 
 ---
 
-Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
+## Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
 
 
 
