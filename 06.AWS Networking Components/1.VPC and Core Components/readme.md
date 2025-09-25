@@ -22,11 +22,11 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
    - Associate Elastic IP
 5. Route Tables
    - Public Route Table
-   - Associate with public-subnet-network
-   - Route: 0.0.0.0/0 → Internet Gateway
+      - Associate with public-subnet-network
+      - Route: 0.0.0.0/0 → Internet Gateway
    - Private Route Table
-   - Associate with private-subnet-network
-   - Route: 0.0.0.0/0 → NAT Gateway
+      - Associate with private-subnet-network
+      - Route: 0.0.0.0/0 → NAT Gateway
 6. Security Groups
    - Inbound: Allow SSH (port 22), ICMP (ping), HTTP/HTTPS
    - Outbound: Allow all traffic
@@ -59,6 +59,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
 
      
    
+
 
 
 
