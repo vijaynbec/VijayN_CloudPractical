@@ -1,4 +1,4 @@
-# 📐 AWS VPC Architecture – Basic Networking & Connectivity Validation
+# 📐 AWS VPC Architecture – Basic Networking & Connectivity (VPC,Subnets,Route Table,Internet Gateway, NAT Gateway, Security Groups)
 
 ## 🖼️ Architecture Diagram
 ![AWS VPC Architecture](vpcnetwork.png)
@@ -58,6 +58,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
 
      
    
+
 
 
 
