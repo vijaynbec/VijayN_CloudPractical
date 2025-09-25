@@ -36,6 +36,18 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
    - Attach appropriate security group
 
 
+## ✅ Connectivity Validation Steps
+1. SSH into Public EC2
+  [Connectivity Validation Steps](Public EC2.png)
+   - Confirm EC2 private IP is within 10.0.1.0/24
+- Connect to Private EC2
+- From Public EC2, SSH into Private EC2 using its private IP
+- Validate NAT Gateway
+- On Private EC2, run:
+
+
+
+
 
 
 
