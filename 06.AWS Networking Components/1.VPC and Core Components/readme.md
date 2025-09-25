@@ -1,7 +1,8 @@
-## 📐 AWS VPC Architecture – Basic Networking & Connectivity Validation
+# 📐 AWS VPC Architecture – Basic Networking & Connectivity Validation
 
-# 🖼️ Architecture Diagram
+## 🖼️ Architecture Diagram
 ![AWS VPC Architecture](vpcnetwork.png)
+
 
 
 
