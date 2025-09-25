@@ -60,9 +60,10 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
 
 ##  🏁 Conclusion
 
-This demo validates a complete AWS VPC setup with public and private subnets, secure EC2 access, and NAT-enabled outbound connectivity
+Validates a complete AWS VPC setup with public and private subnets, secure EC2 access, and NAT-enabled outbound connectivity
 
    
+
 
 
 
