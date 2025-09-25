@@ -39,7 +39,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
 
 ## ✅ Connectivity Validation Steps
 1. VPC Network
-   - Subnet - Route Table - Intenet Gateway Mapping  - NAT gateway mapping
+   - Subnet - Route Table - Intenet Gateway  - NAT gateway mapping
 
 # ![Connectivity Validation Steps](vpc-subnet-route-table-igw.png)
      
@@ -63,6 +63,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
 This demo validates a complete AWS VPC setup with public and private subnets, secure EC2 access, and NAT-enabled outbound connectivity
 
    
+
 
 
 
