@@ -3,7 +3,7 @@ This guide walks through setting up a basic AWS VPC network with public and priv
 
 ### 🖼️ Architecture Diagram
 
-![Architecture Diagram](.png)
+![Architecture Diagram](vpcnetwork.drawio)
 
 🧱 Step-by-Step Setup
 1. Create VPC
@@ -55,6 +55,7 @@ Private Subnet: private-subnet-network (10.0.2.0/24)
 - Confirm successful connection.
 🔹 Validate NAT Gateway
 - On the private EC2, run:
+
 
 
 
