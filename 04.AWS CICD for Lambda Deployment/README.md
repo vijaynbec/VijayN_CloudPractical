@@ -52,5 +52,5 @@ A fully automated CI/CD pipeline that builds, packages, and deploys your Lambda 
 ![Final Output](LambdaCICD.png)
 
 
-Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
+## Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
 
