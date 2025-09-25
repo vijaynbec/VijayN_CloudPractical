@@ -1,6 +1,9 @@
 🌐 AWS Basic Networking Components – Connectivity Validation
 This guide walks through setting up a basic AWS VPC network with public and private subnets, and validating EC2 connectivity across components.
 
+### 🖼️ Architecture Diagram
+
+![Architecture Diagram](.png)
 
 🧱 Step-by-Step Setup
 1. Create VPC
@@ -52,6 +55,7 @@ Private Subnet: private-subnet-network (10.0.2.0/24)
 - Confirm successful connection.
 🔹 Validate NAT Gateway
 - On the private EC2, run:
+
 
 
 
