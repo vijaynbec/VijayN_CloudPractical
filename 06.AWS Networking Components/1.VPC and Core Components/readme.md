@@ -38,20 +38,20 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
 
 
 ## ✅ Connectivity Validation Steps
-1. VPC Network
+# 1. VPC Network
    - Subnet - Route Table - Intenet Gateway  - NAT gateway mapping
 
 # ![Connectivity Validation Steps](vpc-subnet-route-table-igw.png)
      
-3. SSH into Public EC2
+# 2. SSH into Public EC2
    - Confirm EC2 private IP is within 10.0.1.0/24
 
 ![Connectivity Validation Steps](PublicEC2.png)
    
-3. Connect to Private EC2 
+# 3. Connect to Private EC2 
    - From Public EC2, SSH into Private EC2 using its private IP
    
-4. Validate NAT Gateway
+# 4. Validate NAT Gateway
    - On Private EC2, connect the internet
 
      
@@ -63,6 +63,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console_
 This demo validates a complete AWS VPC setup with public and private subnets, secure EC2 access, and NAT-enabled outbound connectivity
 
    
+
 
 
 
