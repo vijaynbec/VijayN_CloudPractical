@@ -17,6 +17,6 @@ Automate EKS provisioning using declarative HCL templates and modules.
 
 
 
-# Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
+### Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
 
 
