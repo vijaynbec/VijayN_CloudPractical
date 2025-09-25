@@ -99,5 +99,5 @@ complete with traffic routing through Nginx
 ![Final Output](docs/PipelineEC2.png)
 
 ---
-Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
+### Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
  
