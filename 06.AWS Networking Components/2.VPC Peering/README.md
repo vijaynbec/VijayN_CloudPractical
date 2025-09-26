@@ -7,7 +7,7 @@
  - Connectivity Test: Ping from  EC2 to from one region to other region
 
 ## Design
-![Design](VPC_Peering_drawio.png)
+![Design](VPCPeering.png)
 
 ## 🚀 Create Infrastructure using a Terraform
 
