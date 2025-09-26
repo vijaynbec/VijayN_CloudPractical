@@ -6,9 +6,8 @@
  - VPC Peering: Created manually via AWS Console
  - Connectivity Test: Ping from  EC2 to from one region to other region
 
-## 🖼️ Design
 
-![Design](VPC_peering_draw.png)
+![](VPC_peering_draw.png)
 
 ## 🚀 Create Infrastructure using a Terraform
 
