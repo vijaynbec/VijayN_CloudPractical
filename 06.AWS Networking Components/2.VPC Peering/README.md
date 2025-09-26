@@ -1,12 +1,12 @@
 # 🌐 VPC Peering Test Across US East and West – Terraform + AWS Console
 
 ## 🧱 Infrastructure Overview
-• 	Two VPCs in US East and West Regions (your preference)
-• 	Two EC2 instances: One in each VPC, Amazon Linux 2
-• 	VPC Peering: Created manually via AWS Console
-• 	Connectivity Test: Ping from  EC2 to from one region to other region
+        Two VPCs in US East and West Regions (your preference)
+        Two EC2 instances: One in each VPC, Amazon Linux 2
+        VPC Peering: Created manually via AWS Console
+        Connectivity Test: Ping from  EC2 to from one region to other region
 
-🚀 Create Infrastructure using a Terraform
+## 🚀 Create Infrastructure using a Terraform
 
 • 	Create the VPC, EC2, Subnets, Route table configuration using a Terraform code. (If you like you can have your own code by selecting your region of preference)
 
