@@ -10,7 +10,7 @@
 
 • 	Create the VPC, EC2, Subnets, Route table configuration using a Terraform code. (If you like you can have your own code by selecting your region of preference)
 
-Terraform creates:
+## Terraform creates:
 - vpc-useast with CIDR 10.0.0.0/16.
 - vpc-uswest with CIDR 15.0.0.0/16.
 - Networking components of VPC's will be crated - internet gateway, route tables, subnets.
