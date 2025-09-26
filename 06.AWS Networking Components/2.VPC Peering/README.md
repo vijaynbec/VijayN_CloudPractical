@@ -7,7 +7,7 @@
  - Connectivity Test: Ping from  EC2 to from one region to other region
 
 ## 🖼️ Architecture Diagram
-![AWS VPC Architecture](VPC_peering_draw.png)
+![Architecture Diagram](VPC_peering_draw.png)
 
 ## 🚀 Create Infrastructure using a Terraform
 
