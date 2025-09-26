@@ -1,4 +1,4 @@
-# 🌐 VPC Peering Test Across two AWS Cloud Regions – Terraform + AWS Console
+# 🌐 VPC Peering Test Across two AWS Cloud Regions (Terraform + AWS Console)
 
 ## 🧱 Infrastructure Overview
  - Two VPCs in US East and West Regions
