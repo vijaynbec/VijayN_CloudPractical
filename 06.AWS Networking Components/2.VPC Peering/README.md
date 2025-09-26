@@ -15,7 +15,9 @@
 ![Create Infrastructure using a Terraform](Terraform_out.png)
 
  - Create a VPC peering from console by providing a details as below.
-![Create Infrastructure using a Terraform](VPC_Peering.drawio.png)
+
+ - ![Create Infrastructure using a Terraform](VPC_Peering.png)
+
 
 
 
