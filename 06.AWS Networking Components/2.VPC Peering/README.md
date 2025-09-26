@@ -1,4 +1,4 @@
-# 🌐 VPC Peering Test Across US East and West – Terraform + AWS Console
+# 🌐 VPC Peering Test Across two AWS Cloud Regions – Terraform + AWS Console
 
 ## 🧱 Infrastructure Overview
  - Two VPCs in US East and West Regions
@@ -22,6 +22,19 @@
 - Create a VPC peering from console by providing a details as below.
 
 ![Create Infrastructure using a Terraform](VPC_Peering.png)
+
+## ✅ Connectivity Validation
+### 1. SSH EC2 instance from one region to other using Private IP
+   - VPC Subnet - Route Table - Intenet Gateway  - NAT gateway mapping
+
+# ![Connectivity Validation](EC2Connect.png)
+     
+
+
+##  🏁 Conclusion
+
+Validates a complete AWS VPC peering between regions by accessing the EC2 instances by their private IP from to check the connetion with necessary VPC peering followed by Route table update.
+
 
 
 
