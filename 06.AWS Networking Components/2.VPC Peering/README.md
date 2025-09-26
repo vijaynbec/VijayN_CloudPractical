@@ -1,4 +1,4 @@
-# 🌐 VPC Peering Test Across two AWS Cloud Regions 
+# 🌐 VPC Peering Test Across two AWS Regions 
 
 (Note: Used Terraform for basic components + AWS Console for VPC Peering)
 
@@ -26,6 +26,7 @@
 ![Create Infrastructure using a Terraform](VPC_Peering.png)
 
 ## ✅ Connectivity Validation
+
 ### 1. SSH EC2 instance from one region to other using Private IP
    - VPC Subnet - Route Table - Intenet Gateway  - NAT gateway mapping
 
