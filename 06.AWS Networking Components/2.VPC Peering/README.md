@@ -6,10 +6,15 @@
  - VPC Peering: Created manually via AWS Console
  - Connectivity Test: Ping from  EC2 to from one region to other region
 
+## 🖼️ Architecture Diagram
+![AWS VPC Architecture](VPC_peering_draw.png)
+
 ## 🚀 Create Infrastructure using a Terraform
 
 • 	Create the VPC, EC2, Subnets, Route table configuration using a Terraform code. 
-!(Create Infrastructure using a Terraform)(
+![Create Infrastructure using a Terraform](Terraform_out.png)
+
+
 
 Create a VPC peering from console by providing a details as below. 
 
