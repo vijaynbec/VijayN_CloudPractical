@@ -5,7 +5,7 @@
  - Two EC2 instances: One in each VPC, Amazon Linux 2
  - VPC Peering: Created manually via AWS Console
  - Connectivity Test: Ping from  EC2 to from one region to other region
- ![Infrastructure Overview](VPC_peering_draw.png)
+ ![Infrastructure Overview](VPC_Peering_drawio.png)
 
 ## 🚀 Create Infrastructure using a Terraform
 
