@@ -3,10 +3,11 @@
 (Note: Used Terraform for basic components + AWS Console for VPC Peering which can be achived for VPC's within a regions, across regions, accounts etc)
 
 ## 🧱 Infrastructure Overview
- - Two VPCs in US East and West Regions
+ - Two VPCs in US East and West Regions     
  - Two EC2 instances: One in each VPC, Amazon Linux 2
  - VPC Peering: Created manually via AWS Console
  - Connectivity Test: Ping from  EC2 to from one region to other region
+Note: Consider the default NACL's as they get created with all Allow In and Out bound.
 
 ## Design
 ![Design](VPCPeering.png)
