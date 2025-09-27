@@ -1,5 +1,5 @@
 # 📐 AWS VPC Architecture – Networking & Connectivity 
-####         VPC -  Subnets - Route Table - Internet Gateway -  NAT Gateway -  Security Groups with default NACLs
+####         VPC -  Subnets - Route Table - Internet Gateway -  NAT Gateway -  Security Groups **with default NACLs**
 
 ## 🖼️ Architecture Diagram
 ![AWS VPC Architecture](vpcnetwork.png)
@@ -64,6 +64,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console as well.
 Validates a complete AWS VPC setup with public and private subnets, secure EC2 access, and NAT-enabled outbound connectivity
 
    
+
 
 
 
