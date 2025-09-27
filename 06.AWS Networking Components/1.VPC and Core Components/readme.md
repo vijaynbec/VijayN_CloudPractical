@@ -9,7 +9,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console as well.
 
 1. VPC
    - Create network-vpc with CIDR block 10.0.0.0/16
-     Note: Consider the default NACL's as they get created with default all Allow In and Out bound.
+   - Note: Consider the default NACL's as they get created with default all Allow In and Out bound.
 2. Subnets
    - Public Subnet: public-subnet-network → 10.0.1.0/24
    - Private Subnet: private-subnet-network → 10.0.2.0/24
@@ -64,6 +64,7 @@ _Note: This can achived by Terraform(IaC) or AWS Console as well.
 Validates a complete AWS VPC setup with public and private subnets, secure EC2 access, and NAT-enabled outbound connectivity
 
    
+
 
 
 
