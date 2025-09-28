@@ -73,6 +73,14 @@ Use the following to configure your kubeconfig:
 
 ![Destroy All Resources](eksdetsory.png)
 
+## 🔑 Key Takeaways
+- This Terraform-based setup provisions an Amazon EKS cluster with minimal components, making it ideal for learning, prototyping, or modular expansion.
+- Using a remote backend (S3 + DynamoDB) ensures safe, collaborative state management across teams and environments.
+- The architecture separates concerns across files (eks.tf, iam.tf, backend.tf), promoting clarity and maintainability.
+- IAM roles for control plane and worker nodes are explicitly defined, ensuring secure and functional cluster operations.
+- With just a few commands (init, plan, apply), you can launch a production-grade Kubernetes cluster on AWS.
+- Kubeconfig integration allows seamless access via kubectl, enabling immediate workload deployment and cluster validation.
+- Clean teardown via terraform destroy helps manage cloud costs and keeps your environment tidy.
 
 
 
