@@ -98,6 +98,12 @@ complete with traffic routing through Nginx
 
 ![Final Output](docs/PipelineEC2.png)
 
----
+## 🔑 Key Takeaways
+- This project demonstrates a complete CI/CD pipeline using AWS-native services to automate Flask app deployment on EC2.
+- Dockerized builds via CodeBuild and automated deployments via CodeDeploy ensure consistency and repeatability across environments.
+- Amazon ECR acts as a secure and scalable container registry, simplifying image management.
+- CodePipeline orchestrates the entire flow—from source to deployment—reducing manual intervention and speeding up delivery.
+- IAM roles and security groups play a critical role in ensuring secure access and proper resource permissions.
+
 ### Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
  
