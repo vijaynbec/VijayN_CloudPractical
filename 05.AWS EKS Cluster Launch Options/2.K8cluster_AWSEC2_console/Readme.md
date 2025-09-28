@@ -91,6 +91,14 @@ app_launch.png
 
 ![Cleanup Resources](clean_up.png)
 
+## 🔑 Key Takeaways
+- Launching EKS from an Ubuntu EC2 client offers a lightweight, cost-effective way to manage clusters without local setup.
+- Installing tools like kubectl, eksctl, and AWS CLI directly on EC2 streamlines cluster provisioning and administration.
+- Attaching the correct IAM role to the EC2 instance is crucial for seamless interaction with EKS and related services.
+- Using eksctl simplifies EKS cluster creation with a single command, abstracting away complex configurations.
+- Deploying workloads (e.g., Nginx) via kubectl validates cluster health and application readiness.
+- Cleaning up resources—both the EKS cluster and EC2 client—helps avoid unnecessary costs and keeps your AWS environment tidy.
+
 
 
 
