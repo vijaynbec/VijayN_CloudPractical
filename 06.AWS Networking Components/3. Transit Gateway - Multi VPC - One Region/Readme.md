@@ -75,7 +75,7 @@ It showcases how Transit Gateway simplifies network architecture by enabling cen
 	├── outputs.tf           # TGW and EC2 outputs
 	
 
-
+
 
 # ✅ Next Steps
 - Add Transit Gateway route tables for more granular control
