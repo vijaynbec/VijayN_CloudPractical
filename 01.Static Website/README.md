@@ -74,6 +74,15 @@ The architecture follows a globally distributed, secure, and scalable design usi
 
 A fully functional, secure, and scalable static website delivered via AWS services, automatically updated through GitHub integration.
 
+## 🔑 Key Takeaways
+   - Leveraging AWS managed services like S3, CloudFront, and Route 53 enables a secure, scalable, and globally distributed static website with minimal infrastructure overhead.
+  - Integrating CodePipeline with GitHub streamlines deployments and ensures rapid content updates with zero manual intervention.
+  - SSL provisioning via ACM and DNS validation through Route 53 enhances trust and security for end users.
+  - CloudFront cache invalidation is essential to reflect real-time changes, especially for static assets.
+  - This architecture is ideal for personal portfolios, product landing pages, and documentation sites with high availability and low cost.
+
+
 ---
 
 Happy hosting! 🎉
+
