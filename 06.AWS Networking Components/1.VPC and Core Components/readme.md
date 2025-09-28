@@ -70,6 +70,14 @@ Note: Consider the default NACL's as they get created with all Allow In and Out 
 Validates a complete AWS VPC setup with public and private subnets, secure EC2 access, and NAT-enabled outbound connectivity
 
    
+## 🔑 Key Takeaways
+- This setup demonstrates a standard 2-tier VPC architecture with public and private subnets, enabling secure and scalable network segmentation.
+- Internet Gateway enables inbound/outbound traffic for public resources, while NAT Gateway allows private instances to access the internet without being exposed.
+- Route tables define traffic flow and must be explicitly associated with subnets to ensure proper connectivity.
+- Security groups act as virtual firewalls—configuring them correctly is essential for SSH, HTTP, and ICMP access.
+- Validating connectivity between public and private EC2 instances confirms that routing, NAT, and security configurations are working as intended.
+- This architecture is foundational for deploying web applications, databases, and internal services in a secure and controlled environment.
+
 
 
 
