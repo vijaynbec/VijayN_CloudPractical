@@ -56,12 +56,12 @@ It showcases how Transit Gateway simplifies network architecture by enabling cen
 - Public IP access is only needed for the first login; private IPs are used for inter-VPC traffic.
 
 📁 Repo Structure
-├── modules/
-│   └── network/         # VPC, Subnet, IGW, EC2, SG
-├── main.tf              # Root module with 3 VPCs and TGW
-├── variables.tf         # Input variables
-├── outputs.tf           # TGW and EC2 outputs
-└── README.md            # Documentation
+	├── modules/
+	│   └── network/         # VPC, Subnet, IGW, EC2, SG
+	├── main.tf              # Root module with 3 VPCs and TGW
+	├── variables.tf         # Input variables
+	├── outputs.tf           # TGW and EC2 outputs
+	
 
 
 
