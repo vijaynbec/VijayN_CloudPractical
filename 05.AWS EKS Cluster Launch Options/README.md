@@ -17,6 +17,13 @@ Automate EKS provisioning using declarative HCL templates and modules.
 
 
 
+## 🔑 Key Takeaways
+- AWS offers multiple methods to launch EKS clusters, each suited to different levels of automation and expertise.
+- eksctl is ideal for quick starts and prototyping, offering a one-command cluster setup.
+- Using EC2 with AWS Console provides hands-on control and is great for learning the underlying components.
+- Terraform enables scalable, repeatable, and version-controlled infrastructure provisioning—perfect for production environments and team collaboration.
+- Choosing the right method depends on your goals: speed, control, or automation.
+
 ### Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
 
 
