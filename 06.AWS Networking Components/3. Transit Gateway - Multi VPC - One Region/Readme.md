@@ -21,7 +21,7 @@ It showcases how Transit Gateway simplifies network architecture by enabling cen
   - EC2 Instances: One per VPC
   - Routing: TGW route propagation and manual route table updates
   - Security: SGs configured for SSH and ICMP (ping) - optional
-
+   ![Architecture](TGWMultiVPC.png)
 ## 🛠️ Setup Steps - First two steps implemented via Terraform
   - Create Three VPCs
 	- Assign unique CIDR blocks
