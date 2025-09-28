@@ -51,6 +51,13 @@
 A fully automated CI/CD pipeline that builds, packages, and deploys your Lambda Function
 ![Final Output](LambdaCICD.png)
 
+## 🔑 Key Takeaways
+- This setup demonstrates a fully serverless CI/CD pipeline using AWS-native services to automate Lambda deployments with zero manual intervention.
+- CodeBuild handles packaging and versioning, while CodeDeploy manages safe rollouts using aliases and deployment groups.
+- Using Lambda aliases enables blue/green or canary deployments, reducing risk during updates.
+- IAM roles and permissions are critical—each service must have scoped access to interact with Lambda, S3, and CodeDeploy.
+- This architecture is ideal for microservices, event-driven applications, and rapid iteration cycles with minimal infrastructure overhead.
+
 
 ## Feel free to fork the repo, raise issues, or suggest improvements. Happy deploying 🚀
 
