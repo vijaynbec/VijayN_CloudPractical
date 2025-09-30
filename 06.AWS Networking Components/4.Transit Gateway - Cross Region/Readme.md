@@ -43,6 +43,7 @@ Note:
 ## 🧪 Connectivity Validation
 - SSH into EC2 instance using its public IP.
 - Copy the private key to the instance.
+  ![Connectivity Validation](ec2_validate1.png)
 
 
 ## ✅ Key Takeaways
