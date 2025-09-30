@@ -1,6 +1,23 @@
 # 🌐 AWS Transit Gateway Peering Across Regions (CORS)
-Note: Terraform was used to provision core infrastructure (VPCs, Subnets, EC2, Security Groups). Transit Gateways, attachments, and peering connections were configured manually via the AWS Console.
 
+## 🚀 Use Case
+- ✅ Connect multiple VPCs with different CIDR blocks
+- ✅ Enable private IP communication between EC2 instances across VPCs
+- ✅ Test Transit Gateway Attachments and route table updates VPC anf TGW routes
+- ✅ Validate connectivity using ping/SSH between instances
+
+
+## 🧱 Architecture
+  - Region: us-east-1/us-west-2
+  - Transit Gateway: In both region
+  - VPCs:
+    - VPC1: 10.0.0.0/16
+    - VPC2: 15.1.0.0/16
+  - EC2 Instances: One per VPC
+  - Routing: TGW route propagation and manual route table updates
+  - Security: SGs configured for SSH and ICMP (ping) - optional
+    
+   ![Architecture](VPCTGWCROS.png)
 
 ## 🧱 Infrastructure Overview
 - Regions: US East (N. Virginia) and US West (Oregon)
