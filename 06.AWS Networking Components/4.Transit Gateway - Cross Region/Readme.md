@@ -19,15 +19,6 @@
     
    ![Architecture](VPCTGWCROS.png)
 
-## 🧱 Infrastructure Overview
-- Regions: US East (N. Virginia) and US West (Oregon)
-- VPCs: One per region
-- EC2 Instances: Amazon Linux 2, one per VPC
-- Transit Gateways: Created manually in each region
-- Attachments & Peering: Configured via AWS Console
-- Connectivity Test: SSH and ping between EC2 instances across regions
-- NACLs: Default NACLs used (allow all inbound/outbound traffic)
-
 ## 🔗 Manual TGW Peering Setup
 - Create Transit Gateway in each region via AWS Console.
 - Attach VPCs to their respective TGWs.
