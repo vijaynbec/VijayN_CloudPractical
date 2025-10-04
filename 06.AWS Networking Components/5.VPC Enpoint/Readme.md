@@ -1,5 +1,7 @@
-# ✅ VPC Endpoint–Restricted S3 Access (Terraform Validation)
+# ✅ VPC Endpoint–Restricted S3 Access 
+
 This setup demonstrates how to enforce S3 access only via a VPC Gateway Endpoint, regardless of whether the EC2 instance is in a public subnet or has internet access.
+
 # 🔧 Architecture Summary
    - EC2 instance launched in a public subnet with Internet Gateway
    - IAM role attached with S3 access policy scoped to aws:SourceVpce
