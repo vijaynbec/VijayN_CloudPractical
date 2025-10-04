@@ -23,21 +23,22 @@ This setup demonstrates how to enforce S3 access only via a VPC Gateway Endpoint
 			],
 			"Condition": {
 				"StringEquals": {
-				"aws:SourceVpce": "vpce-xxxxxxxxxxxxxxxxx"
-      }
-    }
-  }]
-}
+				"aws:SourceVpce": "vpce-*"
+          }
+        }
+       }]
+     }
 
 
 # 🧪 Validation Steps
    - Launch EC2 instance in a public subnet with a public IP.
    - Attach IAM role with the above policy.
     - Run:
-       aws s3 ls s3://your-bucket-name
+       aws s3 ls 
      
 	 - ✅ If traffic flows through the VPC endpoint, access is granted.
      - ❌ If traffic flows through the Internet Gateway, access is denied due to the aws:SourceVpce condition.
+     ![Validation Steps](EC2.png)
  
 # 🔐 Security Enforcement
    - IAM policy ensures S3 access is only allowed via VPC endpoint, regardless of subnet type or public IP.
