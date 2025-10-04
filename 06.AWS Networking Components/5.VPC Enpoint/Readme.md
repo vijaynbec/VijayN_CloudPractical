@@ -49,7 +49,7 @@ This setup demonstrates how to enforce S3 access only via a VPC Gateway Endpoint
      - ❌ If traffic flows through the Internet Gateway, access is denied due to the aws:SourceVpce condition.
      ![Validation Steps](EC2.png)
  
-# 🔐 Security Enforcement
+# 🔐 Key Takeaways for Security Enforcement
    - IAM policy ensures S3 access is only allowed via VPC endpoint, regardless of subnet type or public IP.
    - Prevents data exfiltration via public internet.
    - Ideal for hybrid subnet architectures with mixed access patterns.
