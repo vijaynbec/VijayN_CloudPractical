@@ -4,7 +4,9 @@ This setup demonstrates how to enforce S3 access only via a VPC Gateway Endpoint
    - EC2 instance launched in a public subnet with Internet Gateway
    - IAM role attached with S3 access policy scoped to aws:SourceVpce
    - VPC Gateway Endpoint created for S3
+     
    - No NAT Gateway required
+     
    ![Architecture Summary](VPC-enpoint.png)
 # 📜 IAM Policy (S3 Access via VPC Endpoint Only)
 	{
