@@ -8,6 +8,13 @@ This setup demonstrates how to enforce S3 access only via a VPC Gateway Endpoint
    - No NAT Gateway required
      
    ![Architecture Summary](VPC-enpoint.png)
+
+#  📦 Step-by-Step: Add VPC Gateway Endpoint for S3
+   - vpc_id: Your VPC ID
+   - route_table_ids: Route tables associated with subnets (public or private) that need S3 access
+     ![Step-by-Step: Add VPC Gateway Endpoint for S3](VPC-Connect.png)
+   - This creates a gateway endpoint, not an interface endpoint
+
 # 📜 IAM Policy (S3 Access via VPC Endpoint Only)
 	{
 		"Version": "2012-10-17",
