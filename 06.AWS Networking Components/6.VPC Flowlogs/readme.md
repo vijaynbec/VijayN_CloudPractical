@@ -17,8 +17,9 @@ This demo provisions EC2 instances inside a custom VPC and enables VPC Flow Logs
 # 🛠️ Step-by-Step Implementation on VPC Flow Logs
 
    - Confogure the VPC Flow Logs manually for validation
-![Step-by-Step Implementation on VPC Flow Logs](VPC_UI.png)
+
 ![Step-by-Step Implementation on VPC Flow Logs](VPC-TAB.png)
+![Step-by-Step Implementation on VPC Flow Logs](VPC-role.png)
 
    - Select the Flow log and IAM role create by Terraform
    
