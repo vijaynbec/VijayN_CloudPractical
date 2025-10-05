@@ -26,4 +26,5 @@ This demo provisions EC2 instances inside a custom VPC and enables VPC Flow Logs
 # ✅ Validation Steps
    - Connect EC2 instance and try to ping your known IP or any common website
    - Validate the results in cloud watch logs
+![Validation Steps](VPC-flow-valid.png)
 
