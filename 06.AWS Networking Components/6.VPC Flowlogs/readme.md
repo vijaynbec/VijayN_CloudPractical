@@ -3,7 +3,7 @@ This demo provisions EC2 instances inside a custom VPC and enables VPC Flow Logs
 
 # 🧱 Architecture / Design
 
-## 🔹 Components
+### 🔹 Components
    - Custom VPC with public and private subnets
    - Internet Gateway and route tables
    - EC2 instances in public subnets
@@ -11,6 +11,7 @@ This demo provisions EC2 instances inside a custom VPC and enables VPC Flow Logs
    - CloudWatch Log Group for storing flow logs
    - IAM Role + Inline Policy for log delivery
    - VPC Flow Logs capturing ALL traffic
+     ![Components](Flowlogs.png)
 	
 # 🛠️ Step-by-Step Implementation on VPC Flow Logs
 
