@@ -30,7 +30,11 @@ This demo provisions EC2 instances inside a custom VPC and enables VPC Flow Logs
 
 # 🔑 Key Takeaways
 • 	VPC Flow Logs provide deep visibility into network traffic for auditing and troubleshooting.
+
 • 	IAM role with  permissions ensures secure log delivery.
+
 • 	CloudWatch Log Group centralizes logs for monitoring and retention.
+
 • 	Terraform enables reproducible, version-controlled infrastructure.
+
 • 	This setup is modular and scalable across environments.
