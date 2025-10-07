@@ -12,7 +12,7 @@ This demo provisions EC2 instances inside a custom VPC and enables VPC Flow Logs
    - IAM Role + Inline Policy for log delivery
    - VPC Flow Logs capturing ALL traffic
      
-![Components](Flowlogs.png)
+![Components](Flowlogs1.png)
 	
 # 🛠️ Step-by-Step Implementation on VPC Flow Logs
 
