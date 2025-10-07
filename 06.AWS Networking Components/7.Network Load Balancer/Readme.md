@@ -27,4 +27,9 @@ This demo provisions two EC2 instances inside a custom VPC - 2 subnets and enabl
 ![Validation Steps](NLBResults.png)
 
 # 🔑 Key Takeaways
+  - Network Load Balancer (NLB) enables high-performance, fault-tolerant traffic distribution across multiple Availability Zones.
+  - Target Groups ensure dynamic routing to healthy EC2 instances based on TCP health checks.
+  - Public subnets with IGW and route tables allow EC2 instances to respond to NLB traffic and reach the internet.
+  - Apache + Metadata HTML on EC2 provides a simple validation interface for connectivity and AZ exposure.
+
 
