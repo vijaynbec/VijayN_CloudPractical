@@ -1,4 +1,4 @@
-# 🧭 AWS Transit Gateway Lab: Multi-VPC Connect in a Region
+# 🧭 AWS Transit Gateway Lab: Multi-VPC Connect within Region
 
 ## Overview
 Demonstrates how to use AWS Transit Gateway to connect three VPCs within the same region, each hosting an EC2 instance. 
