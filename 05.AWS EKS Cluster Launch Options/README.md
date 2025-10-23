@@ -34,7 +34,7 @@ You can launch an EKS cluster using various approaches depending on your automat
 
 | 🧰 **Method** | ⚙️ **Description** | 🔗 **Link**  |
 |---------------|-------------------|--------------------|
-| **Using eksctl** | **Recommended for Quick Start**<br>CLI tool created by Weaveworks that provisions the cluster and nodegroups in one command. |[🔍 View](https://github.com/vijaynbec/VijayN_CloudPractical/tree/main/05.AWS%20EKS%20Cluster%20Launch%Options/1.K8cluster%20AWSEKS%20eksctl%20simple) |
+| **Using eksctl** | **Recommended for Quick Start**<br>CLI tool created by Weaveworks that provisions the cluster and nodegroups in one command. |[🔍 View](https://github.com/vijaynbec/VijayN_CloudPractical/tree/main/05.AWS%20EKS%20Cluster%20Launch%Options/1.K8cluster%20_%20AWSEKS%20_%20eksctl%20_%20simple) |
   |
 | **Using EC2 + AWS Console** | **Manual Setup via Console**<br>Launch EKS via the graphical interface and some CLI within AWS instance. |  |
 | **Using Terraform** | **Infrastructure as Code (IaC)**<br>Automate EKS provisioning using declarative HCL templates and modules. |  |
