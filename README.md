@@ -14,7 +14,7 @@ Welcome to my curated collection of AWS infrastructure demos using Terraform, CI
 | **05.AWS EKS Cluster Launch Options – eksctl** | Quick CLI-based cluster creation | [View](./05.AWS%20EKS%20Cluster%20Launch%20Options/1.K8cluster_AWSEKS_eksctl_simple) |
 | **05.AWS EKS Cluster Launch Options – EC2 Console** | Manual setup via Console and EC2 CLI | [View](./05.AWS%20EKS%20Cluster%20Launch%20Options/2.K8cluster_AWSEC2_console) |
 | **05.AWS EKS Cluster Launch Options – Terraform** | Infrastructure as Code for scalable EKS | [View](./05.AWS%20EKS%20Cluster%20Launch%20Options/3.K8cluster_AWSEKS_terraform) |
-| **06.AWS Networking – VPC Core** | VPC, subnets, route tables, IGW | [View](./06.AWS%20Networking%20Components/1.VPC%20and%20Core%20Components) |
+| **06.AWS Networking – VPC Core Components** | VPC, subnets, route tables, IGW | [View](./06.AWS%20Networking%20Components/1.VPC%20and%20Core%20Components) |
 | **06.AWS Networking – VPC Peering** | Connect two VPCs for private routing | [View](./06.AWS%20Networking%20Components/2.VPC%20Peering) |
 | **06.AWS Networking – Transit Gateway (One Region)** | Centralized routing across VPCs | [View](./06.AWS%20Networking%20Components/3.Transit%20Gateway%20-%20Multi%20VPC%20-%20One%20Region) |
 | **06.AWS Networking – Transit Gateway (Cross Region)** | Connect VPCs across regions | [View](./06.AWS%20Networking%20Components/4.Transit%20Gateway%20-%20Cross%20Region) |
