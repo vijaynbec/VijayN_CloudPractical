@@ -1,6 +1,6 @@
-# 🚀 VijayN Cloud Practical Projects
+# 🚀 Cloud Practical Projects
 
-Welcome to my curated collection of AWS infrastructure demos using Terraform, CI/CD, and container orchestration. Each folder contains hands-on projects with reusable code, validation steps, and modular architecture.
+Welcome to my curated collection of AWS infrastructure demos using Terraform, CI/CD, and container orchestration. Each folder contains hands-on projects with various AWS components, Reusable terraform code, validation steps, and modular architecture.
 
 ---
 
