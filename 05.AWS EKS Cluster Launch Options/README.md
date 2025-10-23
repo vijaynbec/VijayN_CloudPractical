@@ -6,7 +6,7 @@ You can launch an EKS cluster using various approaches depending on your automat
 
 ## 🧰 1. Using eksctl (Recommended for Quick Start)
 CLI tool created by Weaveworks that provisions the cluster and nodegroups in one command.
-👉([05.AWS EKS Cluster Launch Options/1.K8cluster_AWSEKS_eksctl_simple](https://github.com/vijaynbec/VijayN_CloudPractical/tree/main/05.AWS%20EKS%20Cluster%20Launch%20Options))
+
 
 ## 🔧 2. Using EC2 with AWS Consol 
 Launch EKS via the graphical interface and some CLI within AWS instance.
