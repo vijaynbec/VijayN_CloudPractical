@@ -1,6 +1,8 @@
 # 🚀 Cloud Practicals
 
-Welcome to my curated collection of AWS infrastructure demos using Terraform, CI/CD, and container orchestration. Each folder contains hands-on projects with various AWS components, Reusable terraform code, validation steps, and modular architecture.
+Welcome to my curated collection of AWS infrastructure demos using Terraform, CI/CD, container orchestration, and cloud-native data platforms. 
+This repository reflects my hands-on expertise across cloud architecture, DevOps automation, and data engineering—showcasing scalable, secure, and reproducible solutions. 
+From EKS clusters and VPC networking to CICD pipelines and Databricks integration, each project is designed to demonstrate practical skills in building modern cloud ecosystems.
 
 ---
 
