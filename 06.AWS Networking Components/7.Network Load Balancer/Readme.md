@@ -1,4 +1,4 @@
-# 📘 VPC Flow Logs Demo – Terraform Setup
+# 📘 Network Load Balancer - NLB – Terraform Setup
 This demo provisions two EC2 instances inside a custom VPC - 2 subnets and enable to connect EC2 instance to be reached by Network Load Balancer
 
 # 🧱 Architecture / Design
