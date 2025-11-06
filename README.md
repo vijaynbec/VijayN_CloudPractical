@@ -1,8 +1,17 @@
-# 🚀 Cloud Practicals
 
-Welcome to my curated collection of AWS infrastructure demos using Terraform, CI/CD, container orchestration, and cloud-native data platforms. 
-This repository reflects my hands-on expertise across cloud architecture, DevOps automation, and data engineering—showcasing scalable, secure, and reproducible solutions. 
-From EKS clusters and VPC networking to CICD pipelines and Databricks integration, each project is designed to demonstrate practical skills in building modern cloud ecosystems.
+# 🚀 Cloud Practicals – Real-World AWS Demos
+
+Welcome to my curated portfolio of AWS infrastructure projects, built to demonstrate hands-on expertise in cloud architecture, DevOps automation, and data platform integration.
+
+Each demo reflects production-grade patterns using Terraform, CI/CD pipelines, Kubernetes orchestration, and secure networking—designed to be modular, reproducible, and production ready patterns.
+
+## 🌟 What You'll Find Here
+
+- ✅ Scalable, secure AWS architectures using Infrastructure as Code
+- 🔁 Automated CI/CD pipelines for EC2, Lambda, and container workloads
+- 🐳 EKS clusters deployed via eksctl, EC2 CLI, and Terraform
+- 🧠 Real-world VPC networking: peering, endpoints, flow logs, and Transit Gateway
+- 📊 Cloud-native data platform integration with Databricks and Snowflake
 
 ---
 
@@ -26,22 +35,6 @@ From EKS clusters and VPC networking to CICD pipelines and Databricks integratio
 | **Network Load Balancer (NLB)** | High-performance TCP load balancing | [View](./06.AWS%20Networking%20Components/7.Network%20Load%20Balancer) |
 | **Gateway Load Balancer (GLB)** | Traffic inspection via GENEVE encapsulation | [View](./06.AWS%20Networking%20Components/8.Gateway%20Load%20Balancer) |
 
----
-
-## 🧠 Why This Repo?
-
-- ✅ Modular, reusable Terraform code  
-- 📜 Real-world AWS use cases  
-- 🔍 Validation steps and outputs  
-- 🧰 CI/CD and container orchestration  
-- 🎯 Perfect for learning, interviews, and production inspiration
-
----
-
-## 💬 Contribute & Connect
-
-Feel free to fork the repo, raise issues, or suggest improvements.  
-Let’s build better cloud infrastructure together! 🚀
 
 ## 🏅 Certifications 
 
