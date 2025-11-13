@@ -1,5 +1,5 @@
 
-# 🚀 Cloud Practicals – Real-World AWS Demos
+# 🚀 Cloud Practicals - AWS Projects
 
 Welcome to my curated portfolio of AWS infrastructure projects, built to demonstrate hands-on expertise in cloud architecture, DevOps automation, and data platform integration.
 
