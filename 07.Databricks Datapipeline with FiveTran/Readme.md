@@ -31,22 +31,22 @@ Instead of writing custom ingestion scripts, I used Fivetran to simplify the EL 
 To ensure data governance and lifecycle control, I defined managed schemas and configured secure storage credentials.
 
 - IAM Role ARN:
-arn:aws:iam::102426687040:role/databricks-s3-ingest-35077-db_********
+arn:aws:iam::10242668xxxx:role/databricks-s3-ingest-35077-db_********
 
 - Connection Credential:
 db_s3_credentials_databricks-s3-ingest-*****
-
+![2. Environment & Storage Setup](docs/Storage.png)
 - Schema Definitions with Managed Locations:
 
 
         CREATE SCHEMA IF NOT EXISTS fivetran_aws.fivetran_source
-            MANAGED LOCATION 's3://fivetran-s3-connect-demo-102426687040/fivetran_source';
+            MANAGED LOCATION 's3://fivetran-s3-connect-demo-10242668xxxx/fivetran_source';
 
         CREATE SCHEMA IF NOT EXISTS fivetran_aws.silver
-            MANAGED LOCATION 's3://fivetran-s3-connect-demo-102426687040/silver';
+            MANAGED LOCATION 's3://fivetran-s3-connect-demo-10242668xxxx/silver';
 
         CREATE SCHEMA IF NOT EXISTS fivetran_aws.gold
-            MANAGED LOCATION 's3://fivetran-s3-connect-demo-102426687040/gold';
+            MANAGED LOCATION 's3://fivetran-s3-connect-demo-10242668xxxx/gold';
 
 
 This setup ensures:
