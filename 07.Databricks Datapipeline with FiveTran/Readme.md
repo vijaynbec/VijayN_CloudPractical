@@ -1,5 +1,7 @@
 # 🧱 Databricks - Datapipeline with FiveTran (Medallion Data flow)
 In the modern data landscape, speed and reliability are paramount. This project demonstrates how to build a scalable Lakehouse using the Medallion Architecture (Bronze → Silver → Gold) within Databricks, powered by Fivetran for automated ingestion.
+
+
 The pipeline simulates a real-world scenario: ingesting raw data from an external source, cleaning it, and structuring it for downstream applications or reporting dashboards — with minimal manual overhead.
 
 # 🏗️ Architecture & Workflow
@@ -17,9 +19,7 @@ Aggregated data optimized for business logic and reporting.
 
 ![Medallion Architecture Diagram](docs/FiveTran_Databricks_Pipeline.png)
 
-
-
-# 🔧 Step-by-Step Implementation
+## Step-by-Step Implementation
 
 ## 1. Source Connection via Fivetran
 Instead of writing custom ingestion scripts, I used Fivetran to simplify the EL (Extract & Load) process.
