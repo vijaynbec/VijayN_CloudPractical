@@ -13,7 +13,8 @@ Validated, enriched, and standardized data.
 - Gold Layer (Curated)
 Aggregated data optimized for business logic and reporting.
 
-Medallion Architecture Diagram
+## Medallion Architecture Diagram:
+
 ![docs](FiveTran_Databricks_Pipeline.png)
 
 # 🔧 Step-by-Step Implementation
@@ -34,6 +35,8 @@ arn:aws:iam::102426687040:role/databricks-s3-ingest-35077-db_********
 db_s3_credentials_databricks-s3-ingest-*****
 
 - Schema Definitions with Managed Locations:
+
+
         CREATE SCHEMA IF NOT EXISTS fivetran_aws.fivetran_source
             MANAGED LOCATION 's3://fivetran-s3-connect-demo-102426687040/fivetran_source';
 
