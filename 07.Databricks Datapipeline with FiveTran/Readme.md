@@ -15,7 +15,9 @@ Aggregated data optimized for business logic and reporting.
 
 ## Medallion Architecture Diagram:
 
-![docs](FiveTran_Databricks_Pipeline.png)
+![Medallion Architecture Diagram](docs/FiveTran_Databricks_Pipeline.png)
+
+
 
 # 🔧 Step-by-Step Implementation
 
@@ -75,7 +77,7 @@ Automated the entire flow using Databricks Workflows.
 
 # 📸 Proof of Execution
 
-![docs](Fivetran_DB_Pipieline_Run.png)
+![Proof of Execution](docs/Fivetran_DB_Pipieline_Run.png)
 
 # 🧠 Key Learnings & Insights
 1. Decoupling Ingestion from Transformation
