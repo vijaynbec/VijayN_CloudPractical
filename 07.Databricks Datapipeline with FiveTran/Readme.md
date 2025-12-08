@@ -97,5 +97,5 @@ Medallion Architecture enforces separation of concerns:
 This project showcases:
 - Hands-on implementation of a modern Lakehouse pipeline
 - Real-world ingestion, transformation, and orchestration
-- Architect-level thinking with execution proof
+- Architect and Design-level thinking with execution proof
 - Scalable design using modular SQL and streaming logic
