@@ -1,4 +1,4 @@
-# 🧱 Databricks - Datapipeline with FiveTran (Medallion Data flow)
+# 🧱 Databricks - Data-pipeline with FiveTran ingestion (Medallion Data flow)
 In the modern data landscape, speed and reliability are paramount. This project demonstrates how to build a scalable Lakehouse using the Medallion Architecture (Bronze → Silver → Gold) within Databricks, powered by Fivetran for automated ingestion.
 
 
