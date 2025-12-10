@@ -1,6 +1,6 @@
 
 # 🚀 Cloud Portfolio  
-<img src="./Banner.png" alt="Cloud Portfolio Banner" width="300"/>
+<img src="./Banner.png" alt="Cloud Portfolio Banner" width="200"/>
 
 
 
