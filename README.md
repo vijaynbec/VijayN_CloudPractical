@@ -1,5 +1,7 @@
 
-# 🚀 Cloud Practicals - AWS Projects  ![Cloud Portfolio Banner](./Banner.png)
+# 🚀 Cloud Portfolio  
+<img src="./Banner.png" alt="Cloud Portfolio Banner" width="800"/>
+
 
 
 
