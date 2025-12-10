@@ -1,5 +1,5 @@
 
-# 🚀 Cloud Portfolio       <img src="./Banner.png" alt="Cloud Portfolio Banner" width="50x170"/>
+# 🚀 Cloud Portfolio       <img src="./Banner.png" alt="Cloud Portfolio Banner" width="100x300"/>
 
 
 
