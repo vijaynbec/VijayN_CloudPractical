@@ -19,7 +19,7 @@ Each demo reflects production-grade patterns using Terraform, CI/CD pipelines, K
 
 | 📦 **Project / Demo** | 📘 **Description** | 🔗 **Link** |
 |------------------------|--------------------|-------------|
-| **Static Website Hosting** | Host a static website using S3, CloudFront, and Route 53 | [View](./01.Static%20Website) |
+| **Static Website Hosting** | Host a static website using S3, CloudFront, and Route 53 | [Link](./01.Static%20Website) |
 | **Three-Tier Application Deployment** | Deploy a 3-tier app (Web, App, DB) using Terraform modules | [View](./02.Three%20tier%20application%20with%20Terraform) |
 | **CI/CD Pipeline for EC2** | Automate EC2 deployment using CodePipeline and CodeDeploy | [View](./03.AWS%20CICD%20for%20EC2%20Deployment) |
 | **CI/CD Pipeline for Lambda** | Automate Lambda deployment using CodePipeline and SAM | [View](./04.AWS%20CICD%20for%20Lambda%20Deployment) |
@@ -55,10 +55,6 @@ Each demo reflects production-grade patterns using Terraform, CI/CD pipelines, K
 |**AWS Certified Developer – Associate**|![AWS Developer – Associate](https://images.credly.com/size/170x170/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)|[Developer – Associate](https://www.credly.com/badges/bad31d88-dfb7-4af5-b35b-6b686e7366ea/public_url)
 |**AWS Certified Cloud Practitioner**|![AWS Practioner](https://images.credly.com/size/170x170/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)|[AWS Practitioner](https://www.credly.com/badges/2ca794d0-67ae-4ba4-bbce-eb0ba8f64eb5/public_url)
 
-
-
-
-            
 
 
 
