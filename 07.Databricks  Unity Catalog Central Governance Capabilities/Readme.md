@@ -34,21 +34,27 @@ With support for **open table formats**:
 Before Unity Catalog, enterprises struggled with:
 
 ❌ **Multiple governance models**
+
 Each workspace had its own permissions, making consistency nearly impossible.
 
 ❌ **No unified lineage**
+
 Teams couldn’t see how data flowed from ingestion → pipelines → dashboards.
 
 ❌ **No cross-cloud or cross-team sharing**
+
 Sharing data meant copying it — increasing cost, risk, and duplication.
 
-❌** No central audit trail**
+❌**No central audit trail**
+
 Compliance teams lacked a single place to track who accessed what.
 
-❌** Duplicate datasets everywhere**
+❌**Duplicate datasets everywhere**
+
 Teams recreated their own “gold” tables, wasting compute and storage.
 
-Unity Catalog solves all of these by providing one governance layer for everything.
+**Unity Catalog solves all of these by providing one governance layer for everything.**
+
 It’s not just a feature — it’s the foundation that makes the modern lakehouse scalable, compliant, and enterprise‑ready.
 
 ## 🧩 Unity Catalog Pillars
