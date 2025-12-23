@@ -11,16 +11,21 @@ Unity Catalog exists to solve exactly this problem.
 ## 🔷 What Is Unity Catalog?
 Unity Catalog is the unified governance and control plane for the Databricks Lakehouse.
 It centralizes security, discovery, lineage, quality, and cost optimization across all data and AI assets, including:
+
 - Tables
 - Files
 - AI Models
 - Notebooks
 - Dashboards
+
 And it works seamlessly across all major cloud platforms:
+
 - AWS S3
 - Azure ADLS Gen2
 - Google Cloud Storage
+
 With support for open table formats:
+
 - Delta Lake (native)
 - Parquet
 - Iceberg (external)
