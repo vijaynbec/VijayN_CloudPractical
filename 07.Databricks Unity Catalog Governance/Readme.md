@@ -123,10 +123,10 @@ Unity Catalog works across all **major cloud data lake**s:
 And supports **open table formats**:
 
 - **Delta Lake (native)**
-
-**-Parquet**
-
-**- Iceberg (external)**
+  
+- **Parquet**
+  
+- **Iceberg (external)**
 
 **This allows enterprises to adopt open, multi‑cloud architectures without losing governance.**
 
