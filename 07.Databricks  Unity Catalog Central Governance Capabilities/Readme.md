@@ -106,7 +106,7 @@ So, Governance becomes a cost‑saving engine, not just a security tool.
 
 ## 🗂️ What Unity Catalog Governs
 
-Unity Catalog governs all major asset types in the lakehouse:
+Unity Catalog governs all **major asset types in the lakehous**e:
 
       Tables   •   AI Models   •   Files   •   Notebooks   •   Dashboards
 
