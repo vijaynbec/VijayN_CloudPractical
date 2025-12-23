@@ -1,12 +1,12 @@
 #  Unity Catalog Matters
-In the modern Data and AI landscape, maintaining a single source of truth and enforcing consistent governance has become one of the biggest challenges for enterprises.
+In the modern Data and AI landscape, maintaining a **single source of truth and enforcing consistent governanc**e has become one of the biggest challenges for enterprises.
 Data lives everywhere — in cloud storage, BI dashboards, MLflow models, notebooks, and across multiple file and table formats. Managing access, lineage, quality, and compliance across all these systems often leads to:
-- Increased risk
+- Increased **risk**
 - Slower innovation
-- Poor business decision-making
-- Higher operational costs
+- **Poor business decision-making**
+- **Higher operational costs**
 
-Unity Catalog exists to solve exactly this problem.
+**Unity Catalog exists to solve exactly this problem.**
 
 ## 🔷 What Is Unity Catalog?
 Unity Catalog is the unified governance and control plane for the Databricks Lakehouse.
@@ -18,13 +18,13 @@ It centralizes security, discovery, lineage, quality, and cost optimization acro
 - Notebooks
 - Dashboards
 
-And it works seamlessly across all major cloud platforms:
+And it works **seamlessly across all major cloud platforms**:
 
 - AWS S3
 - Azure ADLS Gen2
 - Google Cloud Storage
 
-With support for open table formats:
+With support for **open table formats**:
 
 - Delta Lake (native)
 - Parquet
@@ -32,16 +32,22 @@ With support for open table formats:
 
 ## 🧩 The Real Problem It Solves
 Before Unity Catalog, enterprises struggled with:
-❌ Multiple governance models
+
+❌ **Multiple governance models**
 Each workspace had its own permissions, making consistency nearly impossible.
-❌ No unified lineage
+
+❌ **No unified lineage**
 Teams couldn’t see how data flowed from ingestion → pipelines → dashboards.
-❌ No cross-cloud or cross-team sharing
+
+❌ **No cross-cloud or cross-team sharing**
 Sharing data meant copying it — increasing cost, risk, and duplication.
-❌ No central audit trail
+
+❌** No central audit trail**
 Compliance teams lacked a single place to track who accessed what.
-❌ Duplicate datasets everywhere
+
+❌** Duplicate datasets everywhere**
 Teams recreated their own “gold” tables, wasting compute and storage.
+
 Unity Catalog solves all of these by providing one governance layer for everything.
 It’s not just a feature — it’s the foundation that makes the modern lakehouse scalable, compliant, and enterprise‑ready.
 
@@ -97,15 +103,20 @@ So, this is what makes it truly unified.
 
 ## 🌐 Cloud Storage + Table Formats
 Unity Catalog works across all major cloud data lakes:
+
 - AWS S3
 - Azure ADLS Gen2
 - Google Cloud Storage
+  
 And supports open table formats:
-- Delta Lake (native)
-- Parquet
+
+- **Delta Lake (native)**
+-** Parquet**
 - Iceberg (external)
-This allows enterprises to adopt open, multi‑cloud architectures without losing governance.
+
+**This allows enterprises to adopt open, multi‑cloud architectures without losing governance.**
 
 ## 🎯 Takeaway
+
 Unity Catalog is the foundation that enables scalable, compliant, and high‑quality data and AI across the enterprise — faster, safer, and with complete governance.
 
