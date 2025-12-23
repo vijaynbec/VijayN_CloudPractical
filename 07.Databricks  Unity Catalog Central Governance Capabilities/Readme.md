@@ -1,6 +1,8 @@
-#  Unity Catalog Matters
+#  How Unity Catalog Matters ?
+
 In the modern Data and AI landscape, maintaining a **single source of truth and enforcing consistent governanc**e has become one of the biggest challenges for enterprises.
 Data lives everywhere — in cloud storage, BI dashboards, MLflow models, notebooks, and across multiple file and table formats. Managing access, lineage, quality, and compliance across all these systems often leads to:
+
 - Increased **risk**
 - Slower innovation
 - **Poor business decision-making**
@@ -9,6 +11,7 @@ Data lives everywhere — in cloud storage, BI dashboards, MLflow models, notebo
 **Unity Catalog exists to solve exactly this problem.**
 
 ## 🔷 What Is Unity Catalog?
+
 Unity Catalog is the unified governance and control plane for the Databricks Lakehouse.
 It centralizes security, discovery, lineage, quality, and cost optimization across all data and AI assets, including:
 
@@ -53,11 +56,13 @@ Compliance teams lacked a single place to track who accessed what.
 
 Teams recreated their own “gold” tables, wasting compute and storage.
 
+
 **Unity Catalog solves all of these by providing one governance layer for everything.**
 
 It’s not just a feature — it’s the foundation that makes the modern lakehouse scalable, compliant, and enterprise‑ready.
 
-## 🧩 Unity Catalog Pillars
+
+# 🧩 Unity Catalog Pillars
 Unity Catalog is built on four core pillars that address the most critical enterprise needs.
 
 
