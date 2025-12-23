@@ -114,13 +114,13 @@ Unity Catalog governs all **major asset types in the lakehous**e:
 So, this is what makes it truly unified.
 
 ## 🌐 Cloud Storage + Table Formats
-Unity Catalog works across all major cloud data lakes:
+Unity Catalog works across all **major cloud data lake**s:
 
 - AWS S3
 - Azure ADLS Gen2
 - Google Cloud Storage
   
-And supports open table formats:
+And supports **open table formats**:
 
 - **Delta Lake (native)**
 -** Parquet**
