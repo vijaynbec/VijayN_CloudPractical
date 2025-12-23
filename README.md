@@ -39,7 +39,7 @@ Each demo reflects production-grade patterns using Terraform, CI/CD pipelines, K
 | **VPC Flowlogs** | Monitor and log VPC traffic | [Link](./06.AWS%20Networking%20Components/6.VPC%20Flowlogs) |
 | **Network Load Balancer (NLB)** | High-performance TCP load balancing | [Link](./06.AWS%20Networking%20Components/7.Network%20Load%20Balancer) |
 | **Gateway Load Balancer (GLB)** | Traffic inspection via GENEVE encapsulation | [Link](./06.AWS%20Networking%20Components/8.Gateway%20Load%20Balancer) |
-| **Databricks - Unity Catalog (Why and How ?)** | Central Governance Capabilities | [Link](./07..Databricks%20Unity%20Catalog%20Central%20Governance%20Capabilities) |  
+| **Databricks - Unity Catalog (Why and How ?)** | Central Governance Capabilities | [Link](./07.Databricks%20Unity%20Catalog%20Governance) |  
 | **Databricks - Fivetran Ingestion** | Datalake - Medallion Data flow | [Link](./08.Databricks%20Datapipeline%20with%20FiveTran) |
 
 
