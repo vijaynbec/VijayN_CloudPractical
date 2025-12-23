@@ -123,12 +123,14 @@ Unity Catalog works across all **major cloud data lake**s:
 And supports **open table formats**:
 
 - **Delta Lake (native)**
+  
 -** Parquet**
+
 - Iceberg (external)
 
 **This allows enterprises to adopt open, multi‑cloud architectures without losing governance.**
 
 ## 🎯 Takeaway
 
-Unity Catalog is the foundation that enables scalable, compliant, and high‑quality data and AI across the enterprise — faster, safer, and with complete governance.
+****Unity Catalog is the foundation that enables scalable, compliant, and high‑quality data and AI across the enterprise — faster, safer, and with complete governance.****
 
