@@ -62,6 +62,9 @@ Teams recreated their own “gold” tables, wasting compute and storage.
 
 It’s not just a feature — it’s the foundation that makes the modern lakehouse scalable, compliant, and enterprise‑ready.
 
+![The Real Problem It Solves](docs/Unity-compare.png)
+
+
 
 # 🧩 Unity Catalog Pillars
 Unity Catalog is built on four core pillars that address the most critical enterprise needs.
