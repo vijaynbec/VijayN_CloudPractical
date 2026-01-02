@@ -66,13 +66,18 @@ It’s not just a feature — it’s the foundation that makes the modern lakeho
 
 
 
-# 🧩 Unity Catalog Pillars
-Unity Catalog is built on four core pillars that address the most critical enterprise needs.
 
+
+# 🧩 Unity Catalog Pillars
+
+
+**Unity Catalog is built on four core pillars that address the most critical enterprise needs.**
 
 ![Unity Catalog Pillars](docs/UnityCatalog.png)
 
+
 ## 🔐 1. Security
+
 Who can access what — and how it’s audited
 - Fine‑grained access control (table, column, row)
 - Attribute‑based access control (ABAC)
@@ -80,7 +85,9 @@ Who can access what — and how it’s audited
 - Compliance support (HIPAA, PCI, SOX, GDPR)
 
 So, Enterprise get consistent, centralized, least‑privilege access across all clouds and workspaces.
+
 ## 🤝 2. Collaboration
+
 How teams find, understand, and share data
 - Searchable catalogs and metadata
 - Tags, classifications, business glossary
@@ -90,6 +97,7 @@ How teams find, understand, and share data
 So, teams stop working in silos and start sharing trusted, governed data products.
 
 ## 📊 3. Quality / Insights
+
 Where data comes from — and how it’s used
 - End‑to‑end lineage (jobs, notebooks, dashboards)
 - Column‑level lineage
@@ -99,6 +107,7 @@ Where data comes from — and how it’s used
 So, Organizations gain trust in their data and can optimize pipelines with confidence.
 
 ## 💰 4. Cost Control
+
 How to avoid waste and optimize pipelines
 - Least‑privilege access reduces unnecessary scans
 - Lineage reveals redundant pipelines and duplicate tables
@@ -117,6 +126,7 @@ Unity Catalog governs all **major asset types in the lakehous**e:
 So, this is what makes it truly unified.
 
 ## 🌐 Cloud Storage + Table Formats
+
 Unity Catalog works across all **major cloud data lake**s:
 
 - AWS S3
