@@ -7,7 +7,7 @@
 
 Welcome to my curated portfolio of AWS infrastructure projects, built to demonstrate hands-on expertise in cloud architecture, DevOps automation, and data platform integration.
 
-Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Kubernetes orchestration, secure networking—designed to be modular, Databricks, Datalake, medalian pipeline and production ready patterns.
+Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Kubernetes orchestration, secure networking designed to be modular, Databricks, Datalake, medalian pipeline and production ready patterns.
 
 
 ## 🌟 Highlights
