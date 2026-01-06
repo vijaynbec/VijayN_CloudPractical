@@ -51,7 +51,7 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 ## 🏅 Certifications 
 
 
-### Credly Publlic Profile -> https://www.credly.com/users/vijay-nainegali/badges#credly  and   https://www.credential.net/profile/vijaynainegali912106/wallet 
+### Credly Publlic Profile -> https://www.credly.com/users/vijay-nainegali/badges#credly                         and   https://www.credential.net/profile/vijaynainegali912106/wallet 
 
 
 | Certification | Badge | Link |
