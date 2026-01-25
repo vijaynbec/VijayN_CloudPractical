@@ -25,22 +25,22 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 | 📦 **Project / Demo** | 📘 **Description** | 🔗 **Link** |
 |------------------------|--------------------|-------------|
 | **Static Website Hosting** | Host a static website using S3, CloudFront, and Route 53 | [Link](./AWS/01.Static%20Website) |
-| **Three-Tier Application Deployment** | Deploy a 3-tier app (Web, App, DB) using Terraform modules | [Link](./02.Three%20tier%20application%20with%20Terraform) |
-| **CI/CD Pipeline for EC2** | Automate EC2 deployment using CodePipeline and CodeDeploy | [Link](./03.AWS%20CICD%20for%20EC2%20Deployment) |
-| **CI/CD Pipeline for Lambda** | Automate Lambda deployment using CodePipeline and SAM | [Link](./04.AWS%20CICD%20for%20Lambda%20Deployment) |
-| **EKS Cluster – eksctl Method** | Quick CLI-based cluster creation using eksctl | [Link](./05.AWS%20EKS%20Cluster%20Launch%20Options/1.K8cluster_AWSEKS_eksctl_simple) |
-| **EKS Cluster – EC2 + Console Method** | Manual setup via AWS Console and EC2 CLI | [Link](./05.AWS%20EKS%20Cluster%20Launch%20Options/2.K8cluster_AWSEC2_console) |
-| **EKS Cluster – Terraform Method** | Infrastructure as Code for scalable EKS | [Link](./05.AWS%20EKS%20Cluster%20Launch%20Options/3.K8cluster_AWSEKS_terraform) |
-| **VPC and Core Networking Setup** | VPC, subnets, route tables, IGW | [Link](./06.AWS%20Networking%20Components/1.VPC%20and%20Core%20Components) |
-| **VPC Peering** | Connect two VPCs for private routing | [Link](./06.AWS%20Networking%20Components/2.VPC%20Peering) |
-| **Transit Gateway – One Region** | Centralized routing across VPCs in one region | [Link](./06.AWS%20Networking%20Components/3.Transit%20Gateway%20-%20Multi%20VPC%20-%20One%20Region) |
-| **Transit Gateway – Cross Region** | Connect VPCs across regions | [Link](./06.AWS%20Networking%20Components/4.Transit%20Gateway%20-%20Cross%20Region) |
-| **VPC Endpoint** | Private access to AWS services via endpoints | [Link](./06.AWS%20Networking%20Components/5.VPC%20Enpoint) |
-| **VPC Flowlogs** | Monitor and log VPC traffic | [Link](./06.AWS%20Networking%20Components/6.VPC%20Flowlogs) |
-| **Network Load Balancer (NLB)** | High-performance TCP load balancing | [Link](./06.AWS%20Networking%20Components/7.Network%20Load%20Balancer) |
-| **Gateway Load Balancer (GLB)** | Traffic inspection via GENEVE encapsulation | [Link](./06.AWS%20Networking%20Components/8.Gateway%20Load%20Balancer) |
-| **Databricks - Unity Catalog (Why and How ?)** | Central Governance Capabilities in Datalake | [Link](./07.Databricks%20Unity%20Catalog%20Governance) |  
-| **Databricks - Fivetran Ingestion** | Datalake - Medallion Data flow | [Link](./08.Databricks%20Datapipeline%20with%20FiveTran) |
+| **Three-Tier Application Deployment** | Deploy a 3-tier app (Web, App, DB) using Terraform modules | [Link](./AWS/02.Three%20tier%20application%20with%20Terraform) |
+| **CI/CD Pipeline for EC2** | Automate EC2 deployment using CodePipeline and CodeDeploy | [Link](./AWS/03.AWS%20CICD%20for%20EC2%20Deployment) |
+| **CI/CD Pipeline for Lambda** | Automate Lambda deployment using CodePipeline and SAM | [Link](./AWS/04.AWS%20CICD%20for%20Lambda%20Deployment) |
+| **EKS Cluster – eksctl Method** | Quick CLI-based cluster creation using eksctl | [Link](./AWS/05.AWS%20EKS%20Cluster%20Launch%20Options/1.K8cluster_AWSEKS_eksctl_simple) |
+| **EKS Cluster – EC2 + Console Method** | Manual setup via AWS Console and EC2 CLI | [Link](./AWS/05.AWS%20EKS%20Cluster%20Launch%20Options/2.K8cluster_AWSEC2_console) |
+| **EKS Cluster – Terraform Method** | Infrastructure as Code for scalable EKS | [Link](./AWS/05.AWS%20EKS%20Cluster%20Launch%20Options/3.K8cluster_AWSEKS_terraform) |
+| **VPC and Core Networking Setup** | VPC, subnets, route tables, IGW | [Link](./AWS/06.AWS%20Networking%20Components/1.VPC%20and%20Core%20Components) |
+| **VPC Peering** | Connect two VPCs for private routing | [Link](./AWS/06.AWS%20Networking%20Components/2.VPC%20Peering) |
+| **Transit Gateway – One Region** | Centralized routing across VPCs in one region | [Link](./AWS/06.AWS%20Networking%20Components/3.Transit%20Gateway%20-%20Multi%20VPC%20-%20One%20Region) |
+| **Transit Gateway – Cross Region** | Connect VPCs across regions | [Link](./AWS/06.AWS%20Networking%20Components/4.Transit%20Gateway%20-%20Cross%20Region) |
+| **VPC Endpoint** | Private access to AWS services via endpoints | [Link](./AWS/06.AWS%20Networking%20Components/5.VPC%20Enpoint) |
+| **VPC Flowlogs** | Monitor and log VPC traffic | [Link](./AWS/06.AWS%20Networking%20Components/6.VPC%20Flowlogs) |
+| **Network Load Balancer (NLB)** | High-performance TCP load balancing | [Link](./AWS/06.AWS%20Networking%20Components/7.Network%20Load%20Balancer) |
+| **Gateway Load Balancer (GLB)** | Traffic inspection via GENEVE encapsulation | [Link](./AWS/06.AWS%20Networking%20Components/8.Gateway%20Load%20Balancer) |
+| **Databricks - Unity Catalog (Why and How ?)** | Central Governance Capabilities in Datalake | [Link](./Databricks/07.Databricks%20Unity%20Catalog%20Governance) |  
+| **Databricks - Fivetran Ingestion** | Datalake - Medallion Data flow | [Link](./Databricks/08.Databricks%20Datapipeline%20with%20FiveTran) |
 
 
 ## 🌐 Connect with Me
