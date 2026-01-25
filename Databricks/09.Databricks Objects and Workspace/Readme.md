@@ -48,7 +48,9 @@ Unity Catalog provides centralized governance for all data and AI assets:
 - ML Models
 - Permissions & lineage
 
-It ensures consistent governance across all workspaces attached to the same metastore. Why Unity Catalog and How -> [Link](./Databricks/07.Databricks%20Unity%20Catalog%20Governance)
+It ensures consistent governance across all workspaces attached to the same metastore. 
+
+#### Why Unity Catalog and How -> [Link](./Databricks/07.Databricks%20Unity%20Catalog%20Governance)
 
 
 # 🏗️ Databricks Workspace Architecture
