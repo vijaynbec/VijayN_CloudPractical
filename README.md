@@ -41,6 +41,7 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 | **Gateway Load Balancer (GLB)** | Traffic inspection via GENEVE encapsulation | [Link](./AWS/06.AWS%20Networking%20Components/8.Gateway%20Load%20Balancer) |
 | **Databricks - Unity Catalog (Why and How ?)** | Central Governance Capabilities in Datalake | [Link](./Databricks/07.Databricks%20Unity%20Catalog%20Governance) |  
 | **Databricks - Fivetran Ingestion** | Datalake - Medallion Data flow | [Link](./Databricks/08.Databricks%20Datapipeline%20with%20FiveTran) |
+| **Databricks - Objects and Workspace Deisgn** | Databricks Objects and Workspace Components | [Link](./Databricks/09.Databricks%20Objects%20and%20Workspace) |
 
 
 ## 🌐 Connect with Me
