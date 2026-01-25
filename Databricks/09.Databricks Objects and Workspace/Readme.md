@@ -29,7 +29,7 @@ Databricks accounts contain several foundational platform objects that govern id
 - Account‑level usage tracking
 - Billing, compliance, and policy enforcement
    
-## 🧪 Workspace
+#### 🧪 Workspace
 
 A collaborative environment where users:
 - Run compute workloads
@@ -37,16 +37,17 @@ A collaborative environment where users:
 - Schedule jobs and tasks
 - Access all Databricks platform services
 	
-## 🗂️ Unity Catalog Metastores
+#### 🗂️ Unity Catalog Metastores
 
 Unity Catalog provides centralized governance for all data and AI assets:
+
 - Schemas
 - Tables & Views
 - Volumes
 - ML Models
 - Permissions & lineage
 
-It ensures consistent governance across all workspaces attached to the same metastore.
+It ensures consistent governance across all workspaces attached to the same metastore. Why Unity Catalog and How -> [Link](./Databricks/07.Databricks%20Unity%20Catalog%20Governance)
 
 
 # 🏗️ Databricks Workspace Architecture
