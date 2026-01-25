@@ -24,7 +24,7 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 
 | 📦 **Project / Demo** | 📘 **Description** | 🔗 **Link** |
 |------------------------|--------------------|-------------|
-| **Static Website Hosting** | Host a static website using S3, CloudFront, and Route 53 | [Link](./01.Static%20Website) |
+| **Static Website Hosting** | Host a static website using S3, CloudFront, and Route 53 | [Link](./AWS/01.Static%20Website) |
 | **Three-Tier Application Deployment** | Deploy a 3-tier app (Web, App, DB) using Terraform modules | [Link](./02.Three%20tier%20application%20with%20Terraform) |
 | **CI/CD Pipeline for EC2** | Automate EC2 deployment using CodePipeline and CodeDeploy | [Link](./03.AWS%20CICD%20for%20EC2%20Deployment) |
 | **CI/CD Pipeline for Lambda** | Automate Lambda deployment using CodePipeline and SAM | [Link](./04.AWS%20CICD%20for%20Lambda%20Deployment) |
