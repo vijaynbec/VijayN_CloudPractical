@@ -1,10 +1,13 @@
 # 📘 Databricks Platform Objects & Workspace Architecture
 
+
 ## 🏛️ Databricks Account‑Level Objects
 Databricks accounts contain several foundational platform objects that govern identity, workspaces, compute, and governance.
 
+
 ## Databricks Objects Architecture
 ![Databricks Objects Architecture](docs/Databricks_Objects.png)
+
 
 ## 🔐 Identity & Access
 
