@@ -28,7 +28,8 @@ Databricks accounts contain several foundational platform objects that govern id
 
 - Account‑level usage tracking
 - Billing, compliance, and policy enforcement
-   
+
+
 #### 🧪 Workspace
 
 A collaborative environment where users:
