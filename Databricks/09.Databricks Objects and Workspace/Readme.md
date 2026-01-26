@@ -104,3 +104,15 @@ Cloud and Storage
 - GCP	with Google Cloud Storage
 
 Data is stored in your cloud account and accessed by Databricks compute.
+
+## 🎯 Key Architecture Takeaways
+
+- Databricks is designed as a **platform-first architecture**, not just an analytics tool.
+- The **Account vs Workspace separation** enables centralized governance with decentralized execution.
+- **Unity Catalog** functions as a shared governance layer across workspaces, compute types, and data assets.
+- The **Control Plane vs Compute Plane split** supports secure isolation, multi-cloud portability, and serverless-first execution.
+- **Serverless Compute** represents a shift toward infrastructure abstraction, allowing teams to focus on data, governance, and velocity.
+- **Decoupled compute and storage** ensures scalability, flexibility, and long-term viability for lakehouse-based architectures.
+
+Understanding these layers is critical for designing **secure, scalable, cloud-native data platforms** that can evolve with growing organizational and governance requirements.
+
