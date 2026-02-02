@@ -4,6 +4,8 @@ and produces Gold‑layer insights for long‑term investment analysis.
 
 It follows a Bronze → Silver → Gold architecture using Delta Lake and Unity Catalog.
 
+![Overview](/Dataflow.png)
+
 ## 1️⃣ Setup
 Create Schema & Volume
 - Create a dedicated schema for the project.
