@@ -2,6 +2,8 @@
 Investment Vision is a Databricks‑based data pipeline that ingests brokerage statements, parses PDFs, normalizes transactions, enriches metadata, 
 and produces Gold‑layer insights for long‑term investment analysis.
 
+Note: For this I used Robinhood statement
+
 It follows a Bronze → Silver → Gold architecture using Delta Lake and Unity Catalog.
 
 ![Overview](dataflow1.png)
