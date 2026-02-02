@@ -130,6 +130,8 @@ These tables provide:
 
 Perfect for dashboards, long-term trend analysis, and investment strategy insights.
 
+![Gold Layer – Portfolio Insights](vision.png)
+
 ## 🌟 Key Learnings & Insights
 Building this pipeline end‑to‑end gave me several practical insights that strengthened both my data engineering approach 
 and my investment analysis workflow
