@@ -42,6 +42,7 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 | **Databricks - Unity Catalog (Why and How ?)** | Central Governance Capabilities in Datalake | [Link](./Databricks/07.Databricks%20Unity%20Catalog%20Governance) |  
 | **Databricks - Fivetran Ingestion** | Datalake - Medallion Data flow | [Link](./Databricks/08.Databricks%20Datapipeline%20with%20FiveTran) |
 | **Databricks - Objects and Workspace Deisgn** | Databricks Objects and Workspace Components | [Link](./Databricks/09.Databricks%20Objects%20and%20Workspace) |
+| **Databricks - Datapipeline Investment** | Databricks Pipeline for Monthly Investment Decisions | [Link](./Databricks/10.Datapipeline%20Investment%20Vision) |
 
 
 ## 🌐 Connect with Me
