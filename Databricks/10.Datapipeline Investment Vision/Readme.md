@@ -12,24 +12,18 @@ Create Schema & Volume
 ## Upload Required Files
 
 Upload the following into the volume:
-
 - Invest_Dec.csv (historical report)
-
 - Monthly Statement PDF (e.g., Statement_2024-12.pdf)
-
 - Types.txt (sector/industry/category mapping)
 
 Validate Volume Contents
-
 List the volume to confirm all files are available
 
 
 ## 🔄 Note: Manual Uploads Can Be Fully Automated
 
 Manual uploads are only required for the prototype.
-
 In production, Databricks can connect directly to S3, ADLS, or GCS and automatically ingest new monthly statements as they arrive.
-
 Event‑driven workflows or scheduled jobs can trigger the pipeline end‑to‑end with zero manual steps.
 
 ## 2️⃣ Raw Layer Ingestion
@@ -41,7 +35,6 @@ Creates:
 - raw_statement_activity
 
 Steps:
-
 - Install PyPDF2 and restart the Python kernel.
 - Extract Portfolio Summary from the PDF → save as portfolio_extract.csv.
 - Read portfolio_extract.csv → create DataFrame → write to raw_portfolio_statement.
@@ -89,7 +82,6 @@ Creates:
 - current_portfolio_value
 
 Valid Transactions
-
 Includes:  - BUY,SELL,CDIV
 
 Transformations:
@@ -107,7 +99,6 @@ Creates:
 - current_details
 
 current_details includes:
-
 - Instrument
 - Total Qty
 - Current Price
@@ -138,13 +129,10 @@ These tables provide:
 Perfect for dashboards, long-term trend analysis, and investment strategy insights.
 
 ## 🌟 Key Learnings & Insights
-
 Building this pipeline end‑to‑end gave me several practical insights that strengthened both my data engineering approach 
-
 and my investment analysis workflow
 
 1. PDF Data Is Messy — Structure Comes From Logic, Not Format Brokerage statements are not designed for machine readability.
-
 I learned that:
 - Page numbers change every month
 - Sections shift depending on activity
@@ -181,5 +169,5 @@ This project reinforced how:
 - Automation
 …can combine to create a system that improves decision‑making and long‑term strategy.
 
-Happy Learning and Keep Investing !!
+# Happy Learning and Keep Investing !!
 
