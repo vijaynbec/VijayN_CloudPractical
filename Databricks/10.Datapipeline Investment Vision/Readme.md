@@ -6,7 +6,7 @@ Note: For this I used Robinhood Account statement
 
 It follows a Bronze → Silver → Gold architecture using Delta Lake and Unity Catalog.
 
-![Overview](dataflow1.png)
+![Overview](inv1.png)
 
 ## 1️⃣ Setup
 Create Schema & Volume
@@ -84,6 +84,7 @@ Creates:
 - valid_transactions
 - misc_transactions
 - current_portfolio_value
+- raw_data_xirr
 
 Valid Transactions
 Includes:  - BUY,SELL,CDIV
@@ -96,11 +97,15 @@ Misc Transactions
 - Current Portfolio Value
 - Derived from PDF portfolio values in raw_portfolio_statement.
 
+raw_data_xirr
+- prepare a data needed for calculation of xirr with needed signs
+
 ## 4️⃣ Silver Layer
 
 Creates:
 - monthly_inv_details
 - current_details
+- silver_xirr_details
 
 current_details includes:
 - Instrument
@@ -123,11 +128,13 @@ Creates:
 - gold_present_values_bycat
 - gold_present_values_byInst
 - gold_present_values_byIndtype
+- gold_xirr_details
 
 These tables provide:
 - Category‑level portfolio distribution
 - Instrument‑level present value
 - Industry‑type aggregation
+- xirr by category and instrument performance
 
 
 Perfect for dashboards, long-term trend analysis, and investment strategy insights.
