@@ -31,7 +31,7 @@ This project simulates a real‑world analytics engineering workflow using struc
 
 ## 2️⃣ Data Pipeline / Architecture
 
-Raw Source Data
+  Source Data
        ↓
 Bronze / Landing Layer
        ↓
@@ -199,15 +199,23 @@ This project demonstrates practical usage of:
 
 	Lineage tracking through the dbt DAG
 	
-Commands Used:
+# Commands Used:
 	
 dbt debug
+
 dbt compile
+
 dbt run
+
 dbt deps
+
 dbt snapshot
+
 dbt test
+
 dbt build
+
 dbt build --full-refresh
+
 dbt test --select model_names..and more
 
