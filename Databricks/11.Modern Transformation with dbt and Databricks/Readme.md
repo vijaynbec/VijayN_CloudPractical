@@ -16,15 +16,16 @@ The goal of this project is to learn and implement:
 
 3> Data testing and validation
 
-	Dependency management using ref()
+4> Dependency management using ref()
 
-	Source definitions using source()
+5> Source definitions using source()
 
-	Incremental transformations for scalable pipelines
+6> Incremental transformations for scalable pipelines
 
-	Snapshot concepts for historical tracking
+7> Snapshot concepts for historical tracking
 
-	End-to-end workflow execution using dbt build
+8> End-to-end workflow execution using dbt build
+
 
 This project simulates a real‑world analytics engineering workflow using structured raw datasets.
 
@@ -181,23 +182,23 @@ Ad-hoc SQL analysis files:
 
 # This project demonstrates practical usage of:
 
-ref() for model dependencies
+a. ref() for model dependencies
 
-source() for source definitions
+b. source() for source definitions
 
-dbt models (table, view, incremental)
+c. dbt models (table, view, incremental)
 
-Data tests (schema + custom)
+d. Data tests (schema + custom)
 
-Snapshots for historical tracking
+e. Snapshots for historical tracking
 
-Incremental models for scalable pipelines
+f. Incremental models for scalable pipelines
 
-Materializations (table, view, incremental)
+g. Materializations (table, view, incremental)
 
-Jinja templating for reusable logic
+f. Jinja templating for reusable logic
 
-Lineage tracking through the dbt DAG
+h. Lineage tracking through the dbt DAG
 	
 # Commands Used:
 	
