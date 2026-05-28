@@ -180,7 +180,7 @@ Ad-hoc SQL analysis files:
 	
 ## 🧠 Key Learnings & Insights
 
-# This project demonstrates practical usage of:
+ This project demonstrates practical usage of:
 
 a. ref() for model dependencies
 
