@@ -1,0 +1,78 @@
+sources:
+  - name: landing
+    database: dbt_project_catalog  
+    schema: landing  
+    tables:
+    # adding a incremental for orders
+      - name: orders_incremental
+      - name: orders
+      
+  # adding column check at source - generic tests (Unique, notnull,rlatiionships,accepted values)   
+        columns:                   
+          - name: id                   
+            tests:
+              - unique:
+                 config: 
+                  severity: warn
+              - not_null:
+                 config: 
+                  severity: warn
+      ### this config freshness helps to identify the specific colun data to be looked to confirm its old or new data 
+      ## for a certian time/days and give error or warning
+        config:
+          freshness:
+            warn_after:
+             count: 365
+             period: day
+          # error_after:
+          #   count: err_count
+          #   period: err_period
+          loaded_at_field: createdat
+      - name: products
+        columns:                   # adding column check
+          - name: id
+            tests:
+              - unique:
+                 config: 
+                  severity: warn
+              - not_null:
+                 config: 
+                  severity: warn
+      - name: users
+ # adding a dbturils to validate the user is unique instead of columnar check
+        tests:
+          - dbt_utils.expression_is_true:            # refering the expression_is_true
+             arguments:
+              expression: "id>0"     
+        columns:                   # adding column check
+          - name: id
+            tests:
+              - unique:
+                 config: 
+                  severity: warn
+              - not_null:
+                 config: 
+                  severity: warn
+      - name: reviews
+        columns:                   # adding column check
+          - name: id
+            tests:
+              - unique:
+                 config: 
+                  severity: warn
+              - not_null:
+                 config: 
+                  severity: warn
+      ### this config freshness helps to identify the specific colun data to be looked to confirm its old or new data 
+      ## for a certian time/days and give error or warning
+        config: 
+         freshness:
+          # warn_after:
+          #   count: count
+          #   period: period
+          error_after:
+            count: 1440
+            period: day
+         loaded_at_field: createdat
+
+

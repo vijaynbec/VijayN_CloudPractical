@@ -43,6 +43,7 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 | **Databricks - Fivetran Ingestion** | Datalake - Medallion Data flow | [Link](./Databricks/08.Databricks%20Datapipeline%20with%20FiveTran) |
 | **Databricks - Objects and Workspace Deisgn** | Databricks Objects and Workspace Components | [Link](./Databricks/09.Databricks%20Objects%20and%20Workspace) |
 | **Databricks - Datapipeline Investment** | Databricks Pipeline for Monthly Investment Decisions | [Link](./Databricks/10.Datapipeline%20Investment%20Vision) |
+| **dbt and Databricks workflow** | Transformations with dbt and data layers | [Link](./Databricks/11.Modern%20Transformation%20with%20dbt%20and%20Databricks) |
 
 
 ## 🌐 Connect with Me
@@ -67,7 +68,7 @@ https://www.credential.net/profile/vijaynainegali912106/wallet
 |**AWS Certified DevOps Engineer – Professional**|![AWS DevOps Engineer – Professional](https://images.credly.com/size/170x170/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png)|[DevOps Professional](https://www.credly.com/badges/07282de3-19b9-496e-acc7-25a31a01665e/public_url)
 |**Databricks Certified Data Engineer Associate**|![Databricks Certified Data Engineer Associate](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/170448274)|[Databricks Certified Data Engineer Associate](https://credentials.databricks.com/4f436e28-5bbd-450d-b930-6757daee00d2)
 |**Databricks Platform Administrator**|![Databricks Platform Administrator](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/170499854)|[Databricks Platform Administrator](https://credentials.databricks.com/4ce67de1-8135-415e-8406-8c03c694cb11)
-|**AWS Databricks Platform Architect**|![AWS Databricks Platform Architect](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/162433800)|[AWS Databricks Platform Architect](https://credentials.databricks.com/ea979343-030d-4481-b670-9a296700d9bc?record_view=true)
+|**AWS Databricks Platform Architect**|![AWS Databricks Platform Architect](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/162433800)|[AWS Databricks Platform Architect](https://credentials.databricks.com/ea979343-030d-4481-b670-9a296700d9bc?record_view=true) 
 |**HashiCorp Certified: Terraform Associate (003)**|![HashiCorp Certified: Terraform Associate (003)](https://images.credly.com/size/170x170/images/0dc62494-dc94-469a-83af-e35309f27356/blob)|[Terraform Associate](https://www.credly.com/badges/e5da1168-fc4c-472d-bab7-d8c46d125e79/public_url)
 |**Databricks Fundamentals**|![Databricks Fundamentals](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/151340643)|[Databricks Fundamentals](https://credentials.databricks.com/91b4dfc1-a579-4901-9aa5-cb00173894e3#acc.kChnGR78)
 |**Kubernetes Certified Application Developer (CKAD)**| Udemy |[CKAD](https://www.udemy.com/certificate/UC-919f5657-7d7f-46d1-9282-fd414efb70ca/)

@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: gold_daily_sales
+    tests:
+     - dbt_expectations.expect_table_columns_to_match_set: 
+        arguments: 
+         column_list: 
+           - order_date
+           - product_name
+           - product_category
+           - city
+           - state
+    config: 
+      materialized: view

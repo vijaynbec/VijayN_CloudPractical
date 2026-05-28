@@ -1,0 +1,11 @@
+# defining the silver schema at properties file
+# models:
+#   - name: silver_orders.sql
+#     config:
+#       schema: silver
+  # - name: silver_products.sql
+  #   config:
+  #     schema: silver
+  # - name: silver_users.sql
+  #   config:
+  #     schema: silver
