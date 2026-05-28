@@ -10,11 +10,11 @@ engineering best practices
 
 The goal of this project is to learn and implement:
 
-	Medallion Architecture (Bronze, Silver, Gold)
+1> Medallion Architecture (Bronze, Silver, Gold)
 
-	dbt model organization and modular development
+2> dbt model organization and modular development
 
-	Data testing and validation
+3> Data testing and validation
 
 	Dependency management using ref()
 
