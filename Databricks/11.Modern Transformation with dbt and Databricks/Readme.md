@@ -177,27 +177,27 @@ Ad-hoc SQL analysis files:
 ![Proof of Execution](docs/databricks_snap.png)
 
 	
-🧠 Key Learnings & Insights
+## 🧠 Key Learnings & Insights
 
-This project demonstrates practical usage of:
+# This project demonstrates practical usage of:
 
-	ref() for model dependencies
+ref() for model dependencies
 
-	source() for source definitions
+source() for source definitions
 
-	dbt models (table, view, incremental)
+dbt models (table, view, incremental)
 
-	Data tests (schema + custom)
+Data tests (schema + custom)
 
-	Snapshots for historical tracking
+Snapshots for historical tracking
 
-	Incremental models for scalable pipelines
+Incremental models for scalable pipelines
 
-	Materializations (table, view, incremental)
+Materializations (table, view, incremental)
 
-	Jinja templating for reusable logic
+Jinja templating for reusable logic
 
-	Lineage tracking through the dbt DAG
+Lineage tracking through the dbt DAG
 	
 # Commands Used:
 	
