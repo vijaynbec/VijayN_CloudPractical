@@ -43,7 +43,7 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 | **Databricks - Fivetran Ingestion** | Datalake - Medallion Data flow | [Link](./Databricks/08.Databricks%20Datapipeline%20with%20FiveTran) |
 | **Databricks - Objects and Workspace Deisgn** | Databricks Objects and Workspace Components | [Link](./Databricks/09.Databricks%20Objects%20and%20Workspace) |
 | **Databricks - Datapipeline Investment** | Databricks Pipeline for Monthly Investment Decisions | [Link](./Databricks/10.Datapipeline%20Investment%20Vision) |
-| **dbt and Databricks workflow** | Transformations with dbt and data layers | [Link](./Databricks/11.Modern%20Transformation%20with%20dbt%20and%20Databricks) |
+| **dbt and Databricks workflow** | Transformations - dbt workflow with Databricks | [Link](./Databricks/11.Modern%20Transformation%20with%20dbt%20and%20Databricks) |
 
 
 ## 🌐 Connect with Me
