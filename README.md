@@ -15,7 +15,7 @@ Each demo reflects production-grade patterns with Terraform, CI/CD pipelines, Ku
 - 🔁 Automated CI/CD pipelines for EC2, Lambda, and container workloads
 - 🐳 Kubernetes/EKS clusters deployed via eksctl, EC2 CLI, and Terraform
 - 🧠 Enterprise networking demos: VPC peering, endpoints, flow logs, Transit Gateway
-- 📊 Data platform integrations with Databricks Platform, Unity Catalog, Data pipelines
+- 📊 Data platform integrations with Databricks Platform, Unity Catalog, Data pipelines, Medallion Data flow, Datalake 
 - 🔒 Security‑first design: IAM roles, encryption, private networking, monitoring
 
 ---
